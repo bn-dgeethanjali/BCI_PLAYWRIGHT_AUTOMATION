@@ -1,0 +1,2304 @@
+X-BESS-REASON: score
+X-BESS-REASON-EXTRA: 4.514
+Received: from mail14.gbr.pb-dynmktge.com (mail14.gbr.pb-dynmktge.com [51.140.147.13]) by mx-inbound21-98.eu-west-2b.ess.aws.cudaops.com (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO); Thu, 12 Dec 2024 15:09:06 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=gbrkey1; d=ug.imperial.ac.uk;
+ h=From:Date:Subject:Message-Id:Reply-To:To:List-Unsubscribe:
+ List-Unsubscribe-Post:MIME-Version:Content-Type;
+ bh=VaP5SHW3TdzYoEE8cfRBoxEeUgX2io3nrfpyhRUQdmE=;
+ b=N9GkjqmQpUWpc+nAQvyMOhiHWK1pwNrFN3NrzJRRMjqO10U9p1teDsbUA0LeRvdAAIP9J8owh+rG
+   9S7Fcnkgq5WeLlZJ2jXlXOCMxY+TLQ+c3m7/vIJv4A9fPWYluQOkQN/Oq2mOESak7siHaDs7lvw+
+   AFmWrkPkg/Ja/dRd/ZYB7ngfoLOpGzRJIa3H0pGnj9wi+s+XnKGULOSGCRCanSxJfbOK/pgeEc8w
+   xb9+u2bB/N+ObbNls73WlgoOMYqofNbbe5y6538iDSJJ/ungvyh1xIJw4y5MdiEm37C+1/2hl2qn
+   QOFBisccXbMH4aq5Gr/8XbrLlbcHls3da1X1Bg==
+From: Imperial College London <study@ug.imperial.ac.uk>
+Date: Thu, 12 Dec 2024 15:09:06 +0000
+Subject: Boost your employability at Imperial
+Message-Id: <IMNBH9RVUOU4.MZ6BKM6LOTGL3@bouncing.gbr.ug.imperial.ac.uk>
+Reply-To: student-marketing@imperial.ac.uk
+To: 20tianh@harrowschool.org.uk
+List-Unsubscribe: <https://public-gbr.mkt.dynamics.com/api/v1.0/orgs/f152573f-fb95-49d8-a928-b8d8e57cc426/externallink/oneclickunsubscribe/?msdynunsubscribeid=xXxrrJTTXKooRnnYWbTdoAH8u8TGzxnioTBUvKbVfqcx>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-MS-Dynamics-Message-ID: 1_h5lvf4mv7pmetkjixdmok7geey-yh0wiv1eh805lc7xj
+X-MS-Dynamics-Instance: 22xij8ycaxkzflhxjv0hhgpwkpuptlxrtbn2w9m1e2c2
+RecipientAddressHash: xp7BVyDv5nWulpG2DtoK2pCQyxocrDVoL2eT2tyXegc2_DMYIAJI22wUlj2L95QsEH0zGdpvlwkw4trkayxFOyC82
+RecipientAddressHeader: MjB0aWFuaEBoYXJyb3dzY2hvb2wub3JnLnVr
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-gK8vdxbM4x9Bod/aaJhyPg=="
+X-BESS-ID: 1734016146-205474-13355-22430-1
+X-BESS-VER: 2019.1_20241205.2350
+X-BESS-Apparent-Source-IP: 51.140.147.13
+X-BESS-Parts: H4sIAAAAAAACAzXMMQ7DMAiF4bswZwATkMlVqg4BY2WpOtRDpSp3r4dkefr1hu
+	/xg/wO2GDMXeD9ga3gWmzmMV8MD266J5NFr7VQxSakZqsVkx3O5QaO8boAIxW8AOrVLI
+	JSNax45ybZIh2dU10Yzucfi94cAoMAAAA=
+X-BESS-Spam-Status: SCORE=4.51 using account:ESS70849 scores of QUARANTINE_LEVEL=3.5 KILL_LEVEL=5.0 tests=BSF_SC0_INVIS_TEXT_2K, HTML_MESSAGE, MIME_QP_LONG_LINE, BSF_SC0_MV0154, BSF_SC0_MJ019, BSF_SC3_MV0333, HTML_FONT_LOW_CONTRAST, MIME_QP_LONG_LINE_2
+Received-SPF: pass (mx-inbound21-98.eu-west-2b.ess.aws.cudaops.com: domain of b-1_h5lvf4mv7pmetkjixdmok7geey-yh0wiv1eh805lc7xj@bouncing.gbr.ug.imperial.ac.uk designates 51.140.147.13 as permitted sender)
+X-BESS-Spam-Score: 4.51
+X-BESS-DMARC: no-action HeaderFrom:ug.imperial.ac.uk Record:"v=DMARC1; p=reject; rua=mailto:dmarc-reports@imperial.ac.uk,mailto:tud1KEr96t9@dmarc-rua.mailcheck.service.ncsc.gov.uk" SPF:Pass(r) DKIM:ug.imperial.ac.uk(s) PCT(no-pct)
+Authentication-Results: mx-inbound21-98.eu-west-2b.ess.aws.cudaops.com; spf=none smtp.mailfrom=b-1_h5lvf4mv7pmetkjixdmok7geey-yh0wiv1eh805lc7xj@bouncing.gbr.ug.imperial.ac.uk; dkim=pass header.d=; dmarc=pass header.from=study@ug.imperial.ac.uk
+X-BESS-Spam-Report: Code version 3.2, rules version 3.2.2.261063 [from cloudscan18-
+	41.eu-west-2b.ess.aws.cudaops.com]
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------
+	0.10 BSF_SC0_INVIS_TEXT_2K  META: Custom Rule BSF_SC0_INVIS_TEXT_2K 
+	0.00 HTML_MESSAGE           BODY: HTML included in message 
+	0.00 MIME_QP_LONG_LINE      RAWBODY: Quoted-printable line longer than 76 chars 
+	0.50 BSF_SC0_MV0154         META: Custom rule MV0154 
+	0.25 BSF_SC0_MJ019          META: Custom Rule MJ019 
+	2.30 BSF_SC3_MV0333         META: Custom rule MV0333 
+	0.54 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar to background 
+	0.82 MIME_QP_LONG_LINE_2    META: RAW: Quoted-printable line longer than 76 chars 
+X-BESS-BRTS-Status:1
+
+--=-gK8vdxbM4x9Bod/aaJhyPg==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+[An imperial student smiling]
+We can help you prepare for your future career
+[An imperial student smiling]
+We can help you prepare for your future career
+Hi Han ,
+When it comes to careers, Imperial students are always in high demand. That=
+=E2=80=99s because many of the world=E2=80=99s top employers know our gradu=
+ates have a reputation for being innovative and entrepreneurial =E2=80=93 a=
+nd have a degree from a university consistently ranked as one of the best i=
+n the world.
+It=E2=80=99s never too soon to think about life after graduation and the su=
+pport that can help you reach your career goals. From your first day at Imp=
+erial, you=E2=80=99ll have access to a huge range of services to help you p=
+repare for =E2=80=93 and secure =E2=80=93 the next step in your academic or=
+ professional life.
+One-to-one advice
+You can meet our specialist careers advisers at one-to-one appointments thr=
+oughout the year for help with planning your career journey, finding intern=
+ships, practising interviews and developing your CV.
+Expert mentoring
+Connect with our alumni mentors and tap into the experience of over 220,000=
+ Imperial graduates working across a range of industries and professional s=
+ectors around the world.
+Skills workshops
+We=E2=80=99ve got a packed year-round programme of career development and s=
+uccess workshops to help you start mapping out your next steps.
+Employer networking
+Meet top employers at our career fairs, forums and networking events all ye=
+ar round. You can also find vacancies for graduate roles, internships and w=
+ork placement opportunities on our online careers management platform, Jobs=
+Live. [
+Learn more about our Careers service
+<https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynam=
+ics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u=
+0a4HTH7KFtyIhkAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25253=
+A%25252F%25252Fwww.imperial.ac.uk%25252Fcareers%25252F%2522%252C%2522Redire=
+ctOptions%2522%253A%257B%25226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a4=
+97f500dbeoprf%2522%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522u=
+tm_source%2522%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%25=
+20Journeys%2522%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_t=
+erm%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520=
+-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522=
+%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%252=
+02024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dd6km=
+ZW7mirKyStGxGAeHJBNqFo%252BuB3y4ZQ0Q2uB32w8%253D%26secretVersion%3da6751a3a=
+834744298598bfc7d73b336f&c=3DE,1,rPprsKhe3texuQ48tYhAs63qD5yBiRkRmQQyO7tBf7=
+JAnq2K3hCpSftbRc0K8zF_P-crKaMjj2AkPND8CfDphn_RaZxp-uXkt-MYPcH5CJnBXjY,&typo=
+=3D1>] Applying for internships =E2=80=93 how the Careers Service can help =
+[A video thumbnail for the 'Aim's internship story' with a play button in t=
+he middle. <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gb=
+r.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%=
+2f9y7sBug8u0a4HTH7KFtyIhoAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522=
+https%25253A%25252F%25252Fwww.youtube.com%25252Fwatch%25253Fv%25253DUwvnxSP=
+lF7w%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%=
+25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522=
+Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%252=
+2utm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252F=
+A%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520=
+Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%25=
+22%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-=
+%2520Applicants%2522%257D%257D%257D%26digest%3dWnRXa18GIF8RsFENqvwClUjTR5%2=
+52FEWufKOpvrLk3M01o%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f=
+&c=3DE,1,KXwHtv7nJEDfxyEPQTkZBLiWvd3hbW3zf5MjFithIbKSp5WQphq9bGUMUzhFlq-cPc=
+Jf7URojS5uCVyamKXif4jIM_oOtGc6h2l0UBu_Z6z-QFJ9CGU,&typo=3D1>] What should y=
+ou include on your CV? What does a good cover letter look like? How do you =
+find the right company to apply to?
+Biotechnology student Aim shares how Imperial=E2=80=99s Careers Service hel=
+ped answer these questions and more when she was looking for a summer inter=
+nship in her first year.
+[Watch Aim=E2=80=99s internship story <https://linkprotect.cudasvc.com/url?=
+a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-=
+49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIhsAAAA%3ftarget%3d%257B%2=
+522TargetUrl%2522%253A%2522https%25253A%25252F%25252Fwww.youtube.com%25252F=
+watch%25253Fv%25253DUwvnxSPlF7w%2522%252C%2522RedirectOptions%2522%253A%257=
+B%25225%2522%253Anull%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%25=
+22utm_source%2522%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-=
+%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522ut=
+m_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2=
+520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2=
+522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%=
+25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dW=
+nRXa18GIF8RsFENqvwClUjTR5%252FEWufKOpvrLk3M01o%253D%26secretVersion%3da6751=
+a3a834744298598bfc7d73b336f&c=3DE,1,DQ1Ld_XknByes_aKh4c_JA6zzPuOXZbK06wI1HD=
+Te1ZrbBd8cK62dxMvYzjC5d5tFsF-tjZBgYyfoOk07jXa5C1w-6SWmV_LveIBsMuSM2_Xu6nsxQ=
+,,&typo=3D1>] Christmas closure =F0=9F=8E=84
+Imperial will be closed for the Christmas holidays from Friday 20 December =
+2024 and will re-open on Thursday 2 January 2025.
+If you email us during this time, we will reply as soon as we can when the =
+university re-opens in the new year.
+You can also explore our online [Help Centre <https://linkprotect.cudasvc.c=
+om/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573=
+f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIhwAAAA%3ftarget%3d=
+%257B%2522TargetUrl%2522%253A%2522https%25253A%25252F%25252Fwww.imperial.ac=
+.uk%25252Fstudy%25252Fhelp-centre%25252F%2522%252C%2522RedirectOptions%2522=
+%253A%257B%25226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%=
+2522%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522=
+%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journeys%252=
+2%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%=
+2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%=
+2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_=
+content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%25=
+20UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dmIaZeeglBH48Gf0PvR=
+RLVYup7HXlqiI8vC57saXM1hE%253D%26secretVersion%3da6751a3a834744298598bfc7d7=
+3b336f&c=3DE,1,zpx3ZQz7DUlBc-ygBaddQsodMwi-YKx8M3GXjplJ5wqRfRVU1zxxJQAyZok1=
+f_mXiBK_6_OopyPawoILVs8O_QxqVyDIeSz0JtaCeUUM0k12Gp4VsA,,&typo=3D1>] to find=
+ answers to common questions on admissions about, funding, student support =
+and more.
+Happy holidays!
+[An Imperial student <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2=
+fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57=
+cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIh0AAAA%3ftarget%3d%257B%2522TargetUrl%2522=
+%253A%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fch=
+at-to-our-students%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%=
+253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%2=
+53Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%252=
+0365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%=
+2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%=
+2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2=
+520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522=
+MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applica=
+nts%2522%257D%257D%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY=
+%252Bag%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,1HG=
+hIJbL6UaaISwTS64gXF_ZyvPbc5hmh-FxXIy0KH__Lsgg_yE1ax8Gfewv6Fn5dhLAv2cHWw9c0i=
+RTWt9vAxxXunywwWpn5DyNEmNa1uyEQhap2hhiUQFZ-4z2&typo=3D1>]
+Hear about life at Imperial from a current student. [Chat to a student <htt=
+ps://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamics.=
+com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a4H=
+TH7KFtyIh4AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25253A%25=
+252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fchat-to-our-students%2522%2=
+52C%2522RedirectOptions%2522%253A%257B%25226%2522%253A%2522mktprf07700ad2a8=
+0f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253Anull%252C%25222%2522%2=
+53A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Customer%2520Ins=
+ights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522email%2522%=
+252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253=
+A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec=
+%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurture%252=
+0-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%2=
+6digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY%252Bag%253D%26secretVers=
+ion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,cw1-pVwid8cC1Yx5HbGWmcMHlfL1=
+u_Qojw-fL4ZXZrhyBigGUeN5PN41KYTNitcvmr8lSCTWoQizWzVZBKIU6kcuI0vO-q-kT9MRGb8=
+uPpHRqg,,&typo=3D1>]
+[An Imperial student <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2=
+fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57=
+cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIh8AAAA%3ftarget%3d%257B%2522TargetUrl%2522=
+%253A%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fch=
+at-to-our-students%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%=
+253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%2=
+53Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%252=
+0365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%=
+2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%=
+2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2=
+520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522=
+MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applica=
+nts%2522%257D%257D%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY=
+%252Bag%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,kQ1=
+Q0bR4m7YznhoQSi7ZLxFdlGdBQh-24BOuuhSi-NVa0c7AC5Qm19rJOvNtciZC0O9wxvjfXn--_h=
+mNNJ23gwDr11B59ahsYU5yZ94hZ9oeSfkJrD8,&typo=3D1>]
+Hear about life at Imperial from a current student.
+[Chat to a student <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fp=
+ublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc=
+426%2fr%2f9y7sBug8u0a4HTH7KFtyIiAAAAA%3ftarget%3d%257B%2522TargetUrl%2522%2=
+53A%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fchat=
+-to-our-students%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%25=
+3A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253=
+Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%25203=
+65%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%25=
+22%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%25=
+22utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%252=
+0-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MR=
+A%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicant=
+s%2522%257D%257D%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY%2=
+52Bag%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,PXZX1=
+Q7lFXvrAqKV-wYWHCzrki9Db0agCfLxf-Uc6MRq1HvvskqugplMmL6OZNJkkxX5T6YZB0k7vr__=
+sv4idpcqBOeWKtZoiK9vx-c8HQW4dVExrbXU5l4tpM9j&typo=3D1>]
+[Facebook <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr=
+.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2=
+f9y7sBug8u0a4HTH7KFtyIiEAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522h=
+ttps%25253A%25252F%25252Fwww.facebook.com%25252Fimperialcollegelondon%2522%=
+252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522=
+%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2=
+520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_mediu=
+m%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252=
+C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants=
+%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%25=
+22MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appli=
+cants%2522%257D%257D%257D%26digest%3dzNaLbnQIqb5yhNwDOv2hMXRyoOuyFs%252BMYu=
+%252BGlWxdUoc%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE=
+,1,9ZkZtADBgruOj08xDRpNz6ZI9XQIrPyTxJfWzcGYy5STyhcJ2U1UUd89gAA4m8DQV3kkslBT=
+jdY7dZ3evz7cWaaNCvgxu6NGSyEQeuiW7Q,,&typo=3D1>]
+[YouTube <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.=
+mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f=
+9y7sBug8u0a4HTH7KFtyIiIAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522ht=
+tps%25253A%25252F%25252Fwww.youtube.com%25252Fuser%25252Fimperialcollegevid=
+eo%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dNaWea1eMG8tKtHqfgJwTFR5UZw%252=
+BPMla3yP3V1oqkseA%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,yjGFhq0ghoPmfOHQE1EZBCcbQf2Mj-zFL5_7VyDDUtZmVCrREuuqnp8SKFG1I_FNNEnY=
+Oo2MpqRv01qflNr93j04akmKtTZrDIhL430M4l2-ztZTI5xd&typo=3D1>]
+[X (formerly Twitter) <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%=
+2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e5=
+7cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIiMAAAA%3ftarget%3d%257B%2522TargetUrl%252=
+2%253A%2522https%25253A%25252F%25252Ftwitter.com%25252Fimperialcollege%2522=
+%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%252=
+2%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%=
+2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medi=
+um%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%25=
+2C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicant=
+s%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2=
+522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appl=
+icants%2522%257D%257D%257D%26digest%3dcmrs%252B1d%252FFeBCSPHSicT0hp2So%252=
+F9HLHvFKIfjZ9EhUbs%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&=
+c=3DE,1,kZm4SG_LxnU0S47aylwes9dK3R5ibeDKJmZ4TvQ118MyNJnqImjZZJxOsl8iGUbCqTr=
+Soeq1xB_g1JkB3DJirCM2SkfFSJVpf37XIt_eXjqnn5PIgIw,&typo=3D1>]
+[LinkedIn <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr=
+.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2=
+f9y7sBug8u0a4HTH7KFtyIiQAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522h=
+ttps%25253A%25252F%25252Fwww.linkedin.com%25252Fschool%25252Fimperial-colle=
+ge-london%25252Fmycompany%25252Fverification%25252F%2522%252C%2522RedirectO=
+ptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253Anull%252C%252=
+22%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Custome=
+r%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522em=
+ail%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign=
+%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520=
+-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nu=
+rture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%25=
+7D%257D%26digest%3dm1rBiMbO4XyAvbzzW2RHKW2vSW3GVWDChqpEqijp%252FdU%253D%26s=
+ecretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,5IwaOefxwJI4E9Ig0rF=
+Kr684jeCQvPec3HdIno39jvrg4mg3gkBx0Ppbegf90HftMxbbgziVTfBACx3_EdVQNnJFIgoroz=
+2vTlypa531E-uXWnoM_chOMlzJp6ab&typo=3D1>]
+[TikTok <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.m=
+kt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9=
+y7sBug8u0a4HTH7KFtyIiUAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522htt=
+ps%25253A%25252F%25252Fwww.tiktok.com%25252F%252540imperialcollege%2522%252=
+C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%25=
+3Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520=
+365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2=
+522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2=
+522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%25=
+20-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522M=
+RA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applican=
+ts%2522%257D%257D%257D%26digest%3d9vLuZOm1X8EoF%252FjEbhrzw3nygucXBv7BPdk2E=
+j7qIeY%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,kW8q=
+oKJV3ybNidygxNoUsbfZGHbdV3nE9O68Wi0ayYhYGS96Z3lN9OuOGooyvoLUCJuvtN9tiVYoPf1=
+uDUSVxNLt2tIWHoavchlbu5VGR-f7sw,,&typo=3D1>]
+[Instagram <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gb=
+r.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%=
+2f9y7sBug8u0a4HTH7KFtyIiYAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522=
+https%25253A%25252F%25252Fwww.instagram.com%25252Fimperialcollege%25252F%25=
+22%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2=
+522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamic=
+s%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_me=
+dium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%=
+252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applica=
+nts%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A=
+%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Ap=
+plicants%2522%257D%257D%257D%26digest%3dSxGiTshfQ9BJIuw5u6sFZAd3wT%252BTztr=
+w99CZS5s37I4%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,=
+1,RNyKAS8DlEvrANgwgTIEWrlJsapK-JoQLbHAw7FvtPnUW5TLrV26PzBo8bdIWOR3gtRv4L5uW=
+4RmS1nsjIvwRUmKHeRrSN9Lb4FAskO_by4,&typo=3D1>]
+[Facebook <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr=
+.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2=
+f9y7sBug8u0a4HTH7KFtyIicAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522h=
+ttps%25253A%25252F%25252Fwww.facebook.com%25252Fimperialcollegelondon%2522%=
+252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522=
+%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2=
+520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_mediu=
+m%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252=
+C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants=
+%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%25=
+22MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appli=
+cants%2522%257D%257D%257D%26digest%3dzNaLbnQIqb5yhNwDOv2hMXRyoOuyFs%252BMYu=
+%252BGlWxdUoc%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE=
+,1,DRY-IBAtlAUtLGVT2UOhbZP7d6K1f9cGitonfshekufgHCitBxLJl8jjY8KvZ_edpM3oENo1=
+9x2ur7Ing6DQ_w2Hul5kr483ePyEjhUIvoSV021nCD_mbG8,&typo=3D1>]
+[YouTube <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.=
+mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f=
+9y7sBug8u0a4HTH7KFtyIigAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522ht=
+tps%25253A%25252F%25252Fwww.youtube.com%25252Fuser%25252Fimperialcollegevid=
+eo%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dNaWea1eMG8tKtHqfgJwTFR5UZw%252=
+BPMla3yP3V1oqkseA%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,-dMszL-uPFB7UYY7mvqWUVoZcvQWruWSgH5H26c0UOZTZsxZwpV_ItZjzbAFIYxaLubA=
+upJUYa5IOHzmfoQH8xqxMgFaJEmrSeJneok7OC5s6itBl5hvuQ1A&typo=3D1>]
+[X (formerly Twitter) <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%=
+2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e5=
+7cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIikAAAA%3ftarget%3d%257B%2522TargetUrl%252=
+2%253A%2522https%25253A%25252F%25252Ftwitter.com%25252Fimperialcollege%2522=
+%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%252=
+2%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%=
+2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medi=
+um%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%25=
+2C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicant=
+s%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2=
+522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appl=
+icants%2522%257D%257D%257D%26digest%3dcmrs%252B1d%252FFeBCSPHSicT0hp2So%252=
+F9HLHvFKIfjZ9EhUbs%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&=
+c=3DE,1,FlnrJK3Prh0uRGGgG2Zx8rPhZzLYs7eQkAYrz1v04qHIcsTYS21sn6KhGHvFJiOSdPu=
+QbYzjW0SihD9oDssJgxmsPdY1vCO3TuTxEEINGg0qknB29BSJ8jKK&typo=3D1>]
+[LinkedIn <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr=
+.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2=
+f9y7sBug8u0a4HTH7KFtyIioAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522h=
+ttps%25253A%25252F%25252Fwww.linkedin.com%25252Fschool%25252Fimperial-colle=
+ge-london%25252Fmycompany%25252Fverification%25252F%2522%252C%2522RedirectO=
+ptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253Anull%252C%252=
+22%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Custome=
+r%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522em=
+ail%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign=
+%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520=
+-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nu=
+rture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%25=
+7D%257D%26digest%3dm1rBiMbO4XyAvbzzW2RHKW2vSW3GVWDChqpEqijp%252FdU%253D%26s=
+ecretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,ykDN7yKpK4NAPjqA3q0=
+77P2LEN7fSk0RCTcGbsogRIXzObmv2NROkHlWbl85iib_TfO01OEYwAEGroX5mK9D54X6F44YjY=
+7UKIaAnULfuEA-HXGV8uI,&typo=3D1>]
+[TikTok <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.m=
+kt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9=
+y7sBug8u0a4HTH7KFtyIisAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522htt=
+ps%25253A%25252F%25252Fwww.tiktok.com%25252F%252540imperialcollege%2522%252=
+C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%25=
+3Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520=
+365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2=
+522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2=
+522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%25=
+20-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522M=
+RA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applican=
+ts%2522%257D%257D%257D%26digest%3d9vLuZOm1X8EoF%252FjEbhrzw3nygucXBv7BPdk2E=
+j7qIeY%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,JeAZ=
+YhQwptoTAKVfUZmSw2nDJ2qSKLdBH4DWgo0FmauMe346MeSv0EuG22SNrmS3b-BilljmYe9SKAV=
+rCKIWMuWjczk1ySJeoH9_34hr4SpDnM0YAHACMJI,&typo=3D1>]
+[Instagram <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gb=
+r.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%=
+2f9y7sBug8u0a4HTH7KFtyIiwAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522=
+https%25253A%25252F%25252Fwww.instagram.com%25252Fimperialcollege%25252F%25=
+22%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2=
+522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamic=
+s%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_me=
+dium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%=
+252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applica=
+nts%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A=
+%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Ap=
+plicants%2522%257D%257D%257D%26digest%3dSxGiTshfQ9BJIuw5u6sFZAd3wT%252BTztr=
+w99CZS5s37I4%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,=
+1,c11f1uIqqKershZitwyZ_VgoV3FzEgcCVlwMDyZPyrYzFHxh9cAlsVBobbGdVFjmZ1cgyxozp=
+cgmO_GbrDVmk5IJ77Ft2rdLi276BahVMPxiZ6SI9AcNaIfyTi8,&typo=3D1>]
+You have received this email following your application for undergraduate s=
+tudy at Imperial. Imperial is not responsible for the content of third part=
+y websites. Imperial is a world-leading university for science, technology,=
+ engineering, medicine and business (STEMB). Find out how we=E2=80=99re [sh=
+aping the future <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpub=
+lic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc42=
+6%2fr%2f9y7sBug8u0a4HTH7KFtyIi0AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253=
+A%2522https%25253A%25252F%25252Fwww.youtube.com%25252Fwatch%25253Fv%25253De=
+cnBGHIcrDY%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull=
+%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253=
+A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%25=
+2C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522=
+N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520=
+-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_cont=
+ent%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG=
+%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dqW9H%252BaQX3iLJGhrKcy=
+9yDGkYt84TcQ4JGBa7AetFFtY%253D%26secretVersion%3da6751a3a834744298598bfc7d7=
+3b336f&c=3DE,1,b8dR5lYmOXMmv-n2U2esjRIDReqeEHlBIJ3odckA18_0UkpZRhaRU82i2FIi=
+yRVpMl3hUqmjEEGFqsr5PhgJe6qTlekk9B6Fqzgfv7ZS&typo=3D1>] . =C2=A9 Imperial C=
+ollege London Exhibition Road, South Kensington, London SW7 2AZ You can [un=
+subscribe here <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubli=
+c-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%=
+2fr%2f9y7sBug8u0a4HTH7KFtyIi4AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%=
+2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fcampaigns%25252Fcons=
+ent%25252Fapplicants%25252F%25253Fmsdynunsubscribeid%25253DxXxrrJTTXKooRnnY=
+WbTdoAH8u8TGzxnioTBUvKbVfqcx%2522%252C%2522RedirectOptions%2522%253A%257B%2=
+5226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dWy3QQecY7tJk7okAyDthijbiGu80dQ=
+jKHa8nGrkk2qA%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE=
+,1,Sx39Lyo_KXwx_MTuyJ2-KJ1cDtQCRt0tr78RDQgI-QATB8RW4YnEAeFL1FeS-zpESu9uw24P=
+vKoA_ICuhULEcVd_4TB7hGY1Sl7b2x0s5VR1AfnAFB0,&typo=3D1>]
+|
+[Contact us <https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-g=
+br.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr=
+%2f9y7sBug8u0a4HTH7KFtyIi8AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%252=
+2https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fhelp-centre=
+%25252Fcontact%25252F%2522%252C%2522RedirectOptions%2522%253A%257B%25226%25=
+22%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%252=
+2%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%=
+2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medi=
+um%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%25=
+2C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicant=
+s%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2=
+522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appl=
+icants%2522%257D%257D%257D%26digest%3dXw0y5zXds7iDYBVUASO77g6K68vpP0YvkH386=
+9KY2lQ%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,ykFn=
+0q1EokmkTpyNzT-dDjYBBoT6bQhesAylnyGEFJ8FDXUhIeTXO5aKpsIh9Bm1ePSRMWLtEhBXoqg=
+4I6dRdvQtmT9Y-ym910pqLyQpDXM,&typo=3D1>]
+--=-gK8vdxbM4x9Bod/aaJhyPg==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:sc=
+hemas-microsoft-com:office:office"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">
+<title>Boost your employability at Imperial</title>
+<meta name=3D"referrer" content=3D"never">
+<meta name=3D"format-detection" content=3D"telephone=3Dno,date=3Dno,address=
+=3Dno,email=3Dno">
+<meta name=3D"x-apple-disable-message-reformatting"><style>p{margin:0;paddi=
+ng:0;line-height:125%;line-height:1.25;mso-line-height-rule:at-least}[dir=
+=3Drtl],[dir=3Drtl] [align=3Dright] *{text-align:right}[dir=3Drtl] [align=
+=3Dleft] *{text-align:left}s span{text-decoration:line-through}u span{text-=
+decoration:underline}.dividerWrapper p span{line-height:0}ol,ul{margin-top:=
+15px;margin-bottom:15px;line-height:125%;line-height:1.25;mso-line-height-r=
+ule:at-least;padding-inline-end:0;padding-inline-start:40px}p img{max-width=
+:100%}a{text-decoration:none}u a{text-decoration:underline}h1{font-size:28p=
+x}h2{font-size:22px}h3{font-size:18px}h1,h2,h3,h4{margin:0;line-height:125%=
+;line-height:1.25}.imageWrapper a img{text-decoration:none;border:0}th.colu=
+mnContainer,th.inner{font-weight:400;text-align:left}[dir=3Drtl] th.columnC=
+ontainer,[dir=3Drtl] th.inner{font-weight:400;text-align:right}img{max-widt=
+h:100%!important}.hide-on-desktop-class{display:none}@media only screen and=
+ (max-width:768px){.tbContainer{display:block!important}a span{line-height:=
+inherit!important}.multi table{table-layout:fixed;height:auto!important}.mu=
+lti td{width:auto!important;min-height:0!important}.multi tbody,.multi tbod=
+y tr,.multi tbody tr td,.multi tbody tr th,.outer tbody,.outer tbody tr,.ou=
+ter tbody tr td,.outer tbody tr th{display:block!important;box-sizing:borde=
+r-box;height:auto!important;min-height:0!important}.wrap-section .multi tbo=
+dy,.wrap-section .multi tbody tr,.wrap-section .multi tbody tr td,.wrap-sec=
+tion .multi tbody tr th,.wrap-section .outer tbody,.wrap-section .outer tbo=
+dy tr,.wrap-section .outer tbody tr td,.wrap-section .outer tbody tr th{wid=
+th:100%!important}.wrap-section .outer{display:table}.wrap-section .multi t=
+body,.wrap-section .outer tbody{display:table-row-group}.wrap-section .mult=
+i tbody tr,.wrap-section .outer tbody tr{display:table-row}.wrap-section .m=
+ulti tbody tr td,.wrap-section .multi tbody tr th,.wrap-section .outer tbod=
+y tr td,.wrap-section .outer tbody tr th{display:table-cell}.wrap-section .=
+multi tbody tr td .columnContainer,.wrap-section .multi tbody tr th .column=
+Container,.wrap-section .outer tbody tr td .columnContainer,.wrap-section .=
+outer tbody tr th .columnContainer{display:inline}.wrap-section .multi tbod=
+y tr td .inner,.wrap-section .multi tbody tr th .inner,.wrap-section .outer=
+ tbody tr td .inner,.wrap-section .outer tbody tr th .inner{display:table-c=
+ell}.multi .inner{height:auto!important;min-height:0!important}.tbContainer=
+ .inner{box-sizing:border-box}.outer{width:100%!important}.tbContainer .col=
+umnContainer table{table-layout:fixed!important}.tbContainer .columnContain=
+er>table{height:auto!important}.innerTable{min-height:0!important}.no-wrap-=
+section .outer{display:table!important;border-collapse:separate!important}.=
+no-wrap-section .multi table{height:100%!important}.no-wrap-section .multi =
+tbody,.no-wrap-section .outer tbody{display:table-row-group!important;width=
+:100%!important}.no-wrap-section .multi tbody tr,.no-wrap-section .outer tb=
+ody tr{display:table-row!important;width:100%!important}.no-wrap-section .m=
+ulti tbody tr td,.no-wrap-section .multi tbody tr th,.no-wrap-section .oute=
+r tbody tr td,.no-wrap-section .outer tbody tr th{display:table-cell!import=
+ant}.no-wrap-section.columns-equal-class .outer tbody tr td,.no-wrap-sectio=
+n.columns-equal-class .outer tbody tr th{height:0!important}.no-wrap-sectio=
+n .outer tbody tr td.inner,.no-wrap-section .outer tbody tr th.inner{width:=
+100%!important;height:auto!important}a[x-apple-data-detectors]{color:inheri=
+t!important;text-decoration:none!important;font-size:inherit!important;font=
+-family:inherit!important;font-weight:inherit!important;line-height:inherit=
+!important}.hide-on-mobile-class{display:none!important}.hide-on-desktop-cl=
+ass{display:block!important}.hide-on-desktop-class.hide-on-mobile-class{dis=
+play:none!important}}:root{--brand-color1:#003e74;--brand-color2:#e6e6e6;--=
+brand-color3:#373a36;--brand-color4:#009cbc;--brand-color5:#3498db}body,div=
+{font-family:Arial,Helvetica,sans-serif;color:#000;background-color:#E6E6E6=
+}div div{background-color:transparent}[data-layout=3Dtrue]{margin:0 auto;ma=
+x-width:600px;border-style:none;background-color:#fff}</style><!--[if gte m=
+so 9]>
+<xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPe=
+rInch></o:OfficeDocumentSettings></xml>
+<![endif]-->
+</head>
+<body style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background=
+-color:#E6E6E6;background:#e6e6e6"><!--[if !mso]><!--><div id=3D"preheader"=
+ style=3D"display: none; max-height: 0px; overflow: hidden;">Get careers su=
+pport from day one<br>&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+ &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp=
+;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp=
+;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp=
+;=E2=80=8C&nbsp;<br>&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=8C&n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&n=
+bsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp; &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;</div><!----><!--[endif]----><!--[if gte mso 9]> <table cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"border-=
+collapse: collapse;"><tr><th style=3D"margin-bottom:0; margin-top:0; paddin=
+g:0; background-color: rgb(255, 255, 255); border-width: ; border-style: ; =
+border-color: ; border-collapse: collapse;"> <![endif]--><div style=3D"font=
+-family:Arial,Helvetica,sans-serif;color:#000;background-color:#fff;border-=
+style:none;max-width:600px;margin:auto"><!--[if gte mso 9]> </div><div styl=
+e=3D"background-color: transparent; border:none;"> <![endif]-->
+<div class=3D"columns-equal-class wrap-section hide-on-mobile-class" style=
+=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-color:#000=
+0cd;margin-bottom:15px"><!--[if gte mso 9]> </div><div style=3D"background-=
+color: transparent; border:none;"> <![endif]-->
+<table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse:collapse;display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr style=3D"padding: 0px;mso-line-height-rule: exactly=
+;line-height: 1px; background-color: rgb(0, 0, 205);" height=3D"0"><td>&nbs=
+p;</td></tr> <![endif]--><tr>
+<th style=3D"background-color:#0000cd;padding-top:20px" role=3D"presentatio=
+n">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:300px;height:0" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner ui-sortable" style=3D"text-align:left;min-width:20px;ver=
+tical-align:top;word-wrap:break-word;word-break:break-word;padding-left:20p=
+x;padding-bottom:15px;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><!--[if gte mso 9]> <img src=3D"https://linkprotect.cudasvc.com/url?a=
+=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8=
+e57cc426%2fdigitalassets%2fimages%2f1ed668f5-b1db-ee11-904d-002248017eed%3f=
+ts%3d638453235936798244&c=3DE,1,ENR4GtVD1X92aijs3CubPwaGgCki4ZXm6lXJulbH5gq=
+iPXnN3LQdzmr8r478J4iXjzDjNE6IGhRnYQFo8h9RzS-HWyDgzXxdDROWFF_J3aIy8dq41VnlRL=
+PPYg,,&typo=3D1" style=3D"max-height: 100%; box-sizing: border-box; display=
+: block; max-width: 100% !important;" width=3D"280" height=3D"30"> <![endif=
+]--> <!--[if !mso]> <!----><img src=3D"https://linkprotect.cudasvc.com/url?=
+a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d=
+8e57cc426%2fdigitalassets%2fimages%2f1ed668f5-b1db-ee11-904d-002248017eed%3=
+fts%3d638453235936798244&c=3DE,1,SqEWpEryAvOPDJPeNgftuldhPWTYhySLQbsZF8Tfnr=
+fm3QtGXWYBJqi-f6BQ01XMRxW339RM6P2YorJpq212GSDqbT-tSHZ2wJwbo3vUhh_MSIjjUttUi=
+dMg5Q,,&typo=3D1" style=3D"max-height:100%;box-sizing:border-box;display:bl=
+ock;max-width:100%!important"><!--[endif]----></div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:300px;height:0" role=3D"presentation"><t=
+able width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:100=
+%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0"><p style=3D"line-height:1.25;margin:0;padding:0=
+;mso-line-height-rule:at-least"><br></p></div></th>
+</tr>
+</tbody>
+</table></th></tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;background=
+-color: rgb(0, 0, 205);"><p style=3D"font-size: 0px;height:0px; margin: 0px=
+; padding:0;line-height: 0px; mso-line-height-rule: exactly; background-col=
+or: transparent;"><br/></p></td></tr> <![endif]--></tbody>
+</table>
+<!--[if gte mso 9]> <table align=3D"center" style=3D"width: 600px;" cellpad=
+ding=3D"0" cellspacing=3D"0" border=3D"0"><tr style=3D"padding: 0px;mso-lin=
+e-height-rule: exactly;line-height: 1px;" height=3D"15"><td>&nbsp;</td></tr=
+></table> <![endif]--></div><div class=3D"emptyContainer columns-equal-clas=
+s wrap-section hide-on-mobile-class" style=3D"font-family:Arial,Helvetica,s=
+ans-serif;color:#000;background-color:transparent;margin:0;border-radius:0"=
+><!--[if gte mso 9]> </div><div style=3D"background-color: transparent; bor=
+der:none;"> <![endif]--><table class=3D"outer" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--><tr>
+<th style=3D"padding:0;border-color:#000;border-width:0;border-style:none;b=
+order-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;padding:0;height:0;background-colo=
+r:rgba(0,0,0,0)" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;padding:0;vertic=
+al-align:top;word-wrap:break-word;word-break:break-word;background-color:rg=
+ba(0,0,0,0);border-color:#000;border-width:0;border-style:none;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent">
+<div class=3D"contentBlockWrapper" style=3D"font-family:Arial,Helvetica,san=
+s-serif;color:#000;background-color:transparent"></div>
+</div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--></tbody>
+</table></div><div class=3D"emptyContainer columns-equal-class wrap-section=
+ hide-on-mobile-class" style=3D"font-family:Arial,Helvetica,sans-serif;colo=
+r:#000;background-color:transparent;margin:0;border-radius:0"><!--[if gte m=
+so 9]> </div><div style=3D"background-color: transparent; border:none;"> <!=
+[endif]--><table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--><tr>
+<th style=3D"padding:0;border-color:#000;border-width:0;border-style:none;b=
+order-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;padding:0;height:0;background-colo=
+r:rgba(0,0,0,0)" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;padding:0;vertic=
+al-align:top;word-wrap:break-word;word-break:break-word;background-color:rg=
+ba(0,0,0,0);border-color:#000;border-width:0;border-style:none;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent">
+<div class=3D"contentBlockWrapper" style=3D"font-family:Arial,Helvetica,san=
+s-serif;color:#000;background-color:transparent"></div>
+</div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--></tbody>
+</table></div><div class=3D"emptyContainer columns-equal-class wrap-section=
+ hide-on-mobile-class" style=3D"font-family:Arial,Helvetica,sans-serif;colo=
+r:#000;background-color:transparent;margin:0;border-radius:0"><!--[if gte m=
+so 9]> </div><div style=3D"background-color: transparent; border:none;"> <!=
+[endif]--><table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--><tr>
+<th style=3D"padding:0;border-color:#000;border-width:0;border-style:none;b=
+order-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;padding:0;height:0;background-colo=
+r:rgba(0,0,0,0)" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;padding:0;vertic=
+al-align:top;word-wrap:break-word;word-break:break-word;background-color:rg=
+ba(0,0,0,0);border-color:#000;border-width:0;border-style:none;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0 20px 15px;padding:0"><div align=3D"Center" class=
+=3D"imageWrapper" style=3D"font-family:Arial,Helvetica,sans-serif; color:#0=
+00; background-color:transparent;"><!--[if gte mso 9]> <img src=3D"https://=
+linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2=
+ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2f209c29a9-4=
+0b6-ef11-b8e9-7c1e522f2c1c%3fts%3d638693542394640995&c=3DE,1,8f59UMvWZ37XQp=
+RKINdGB6Qmasr27qnHzt9EXD5noiqazl4UBfMYAG5Gh9O6HxoL7dIZTYCh_4SeKDBC4kkUG6mDy=
+LHbXIkDQfNBdTYUgIOGEg,,&typo=3D1" style=3D"max-height: 100%; box-sizing: bo=
+rder-box; display: block; border-radius: 0px; max-width: 100% !important;" =
+alt=3D"An imperial student smiling" width=3D"560"> <![endif]--> <!--[if !ms=
+o]> <!----><img src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%=
+2fassets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigi=
+talassets%2fimages%2f209c29a9-40b6-ef11-b8e9-7c1e522f2c1c%3fts%3d6386935423=
+94640995&c=3DE,1,bwZUf6mYu_s5tLJEp8sKVLVAIuwHKS10DLkBes9cUygVnJy3p-YN9kKnt8=
+LrNkCc6GUHwt7FgrR9JMMXg1eqWCoRZ7RMlYuXz_0xZ38hYq4EtnmT7lE,&typo=3D1" style=
+=3D"max-height:100%;box-sizing:border-box;display:block;border-radius:0;max=
+-width:100%!important" alt=3D"An imperial student smiling"><!--[endif]---->=
+</div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;"><p style=
+=3D"font-size: 0px;height:0px; margin: 0px; padding:0;line-height: 0px; mso=
+-line-height-rule: exactly; background-color: transparent;"><br/></p></td><=
+/tr> <![endif]--></tbody>
+</table></div><div class=3D"emptyContainer columns-equal-class wrap-section=
+ hide-on-mobile-class" style=3D"font-family:Arial,Helvetica,sans-serif;colo=
+r:#000;background-color:#fff;margin:0;border-radius:0"><!--[if gte mso 9]> =
+</div><div style=3D"background-color: transparent; border:none;"> <![endif]=
+--><table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;background=
+-color: rgb(255, 255, 255);"><p style=3D"font-size: 0px;height:0px; margin:=
+ 0px; padding:0;line-height: 0px; mso-line-height-rule: exactly; background=
+-color: transparent;"><br/></p></td></tr> <![endif]--><tr>
+<th style=3D"background-color:#fff;padding:0 20px;border-color:#000;border-=
+width:0;border-style:none;border-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer columnContainerWrapper" style=3D"font-weight:4=
+00;text-align:left;vertical-align:top;min-width:5px;width:425.6px;height:11=
+1.98px;min-height:111.98px" role=3D"presentation">
+<!--[if gte mso 9]> <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"height: 100%; min-height: 111.977px; border-collapse: collapse;=
+" role=3D"presentation" class=3D"innerTable"> <![endif]--><!--[if !mso]> <!=
+----><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"hei=
+ght:100%;min-height:111.98px" role=3D"presentation" class=3D"innerTable"><!=
+--<![endif]-->
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;border-color:=
+#0000cd;border-width:1px 1px 1px 0;border-style:solid solid solid none;font=
+-weight:400;height:109.98px;min-height:109.98px" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:10px"><p style=3D"margin:0;padding:0;line-height:1=
+.25;mso-line-height-rule:at-least"><span style=3D"font-size:36px"><span sty=
+le=3D"color:#0000cd">We can help you prepare for your future career</span><=
+/span></p></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"columnContainer columnContainerWrapper" style=3D"font-weight:4=
+00;text-align:left;vertical-align:top;min-width:5px;width:134.4px;height:11=
+1.98px;min-height:111.98px" role=3D"presentation">
+<!--[if gte mso 9]> <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"height: 100%; min-height: 111.977px; border-collapse: collapse;=
+" role=3D"presentation" class=3D"innerTable"> <![endif]--><!--[if !mso]> <!=
+----><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"hei=
+ght:100%;min-height:111.98px" role=3D"presentation" class=3D"innerTable"><!=
+--<![endif]-->
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:bottom;word-wrap:break-word;word-break:break-word;border-col=
+or:#0000cd #000;border-width:1px 0;border-style:solid none;padding:10px;bac=
+kground-color:rgba(0,0,0,0);border-radius:0;font-weight:400;height:89.98px;=
+min-height:89.98px" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:10px"><p style=3D"margin:0;padding:0;line-height:1=
+.25;mso-line-height-rule:at-least"><br></p></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;background=
+-color: rgb(255, 255, 255);"><p style=3D"font-size: 0px;height:0px; margin:=
+ 0px; padding:0;line-height: 0px; mso-line-height-rule: exactly; background=
+-color: transparent;"><br/></p></td></tr> <![endif]--></tbody>
+</table></div><!--[if !mso]> <!----><div class=3D"columns-equal-class hide-=
+on-desktop-class no-wrap-section" style=3D"font-family:Arial,Helvetica,sans=
+-serif;color:#000;display:none;background-color:#0000cd;margin-bottom:15px">
+<table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse:collapse;width:600px;display:block" role=3D"prese=
+ntation">
+<tbody>
+<tr>
+<th style=3D"background-color:#0000cd;padding-top:20px" role=3D"presentatio=
+n">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:300px;height:0;max-width:50%" role=3D"pr=
+esentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner ui-sortable" style=3D"text-align:left;min-width:20px;ver=
+tical-align:top;word-wrap:break-word;word-break:break-word;padding-left:10p=
+x;padding-bottom:20px;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><img src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fass=
+ets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalas=
+sets%2fimages%2f1ed668f5-b1db-ee11-904d-002248017eed%3fts%3d638453235936798=
+244&c=3DE,1,_9Aa1CcMcFXzndysPl9HOXhOSVd5qFBvfX4p1Bb9vgtYzSer0Y8pJUtRMzLF9E1=
+WdpWk82REoS1QwowFxVWyzUU5m5ksRG6wr9h53NyLqu7u&typo=3D1" style=3D"max-height=
+:100%;box-sizing:border-box;display:block;max-width:100%!important"></div><=
+/div></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:300px;height:0;max-width:50%" role=3D"pr=
+esentation"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"height:100%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0"><p style=3D"line-height:1.25;margin:0;padding:0=
+;mso-line-height-rule:at-least"><br></p></div></th>
+</tr>
+</tbody>
+</table></th></tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</div><!--[endif]----><!--[if !mso]> <!----><div class=3D"emptyContainer co=
+lumns-equal-class wrap-section hide-on-desktop-class" style=3D"font-family:=
+Arial,Helvetica,sans-serif;color:#000;background-color:transparent;display:=
+none;margin:0;border-radius:0"><table class=3D"outer" align=3D"center" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"width:600px;display:block" role=3D=
+"presentation">
+<tbody>
+<tr>
+<th style=3D"padding:0;border-color:#000;border-width:0;border-style:none;b=
+order-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;padding:0;height:0" role=3D"presen=
+tation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;padding:0;vertic=
+al-align:top;word-wrap:break-word;word-break:break-word;background-color:rg=
+ba(0,0,0,0);border-color:#000;border-width:0;border-style:none;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0 10px 15px;padding:0"><div align=3D"Center" class=
+=3D"imageWrapper" style=3D"font-family:Arial,Helvetica,sans-serif; color:#0=
+00; background-color:transparent;"><img src=3D"https://linkprotect.cudasvc.=
+com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-=
+a928-b8d8e57cc426%2fdigitalassets%2fimages%2f209c29a9-40b6-ef11-b8e9-7c1e52=
+2f2c1c%3fts%3d638693542394640995&c=3DE,1,1rvSTKbVkgJi7CCAgzaX5w0EMmXUWLOhM3=
+AL2pSwdXiIPNUR9bJNm5KbYp132c5NX78bisDfpNk3nFUoIheBfbxXidiLUErPDD45Ze8xmIQ,&=
+typo=3D1" style=3D"max-height:100%;box-sizing:border-box;display:block;bord=
+er-radius:0;max-width:100%!important" alt=3D"An imperial student smiling"><=
+/div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[endif]----><!--[if !mso]> <!----><div class=3D"emptyCont=
+ainer columns-equal-class wrap-section hide-on-desktop-class" style=3D"font=
+-family:Arial,Helvetica,sans-serif;color:#000;background-color:transparent;=
+display:none;margin:0;border-radius:0"><table class=3D"outer" align=3D"cent=
+er" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:600px;display:block"=
+ role=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"padding:0;border-color:#000;border-width:0;border-style:none;b=
+order-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;padding:0;height:0" role=3D"presen=
+tation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;padding:0;vertic=
+al-align:top;word-wrap:break-word;word-break:break-word;background-color:rg=
+ba(0,0,0,0);border-color:#000;border-width:0;border-style:none;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent">
+<div class=3D"contentBlockWrapper" style=3D"font-family:Arial,Helvetica,san=
+s-serif;color:#000;background-color:transparent"></div>
+</div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[endif]----><!--[if !mso]> <!----><div class=3D"emptyCont=
+ainer columns-equal-class wrap-section hide-on-desktop-class" style=3D"font=
+-family:Arial,Helvetica,sans-serif;color:#000;display:none;background-color=
+:#fff;margin:0;border-radius:0"><table class=3D"outer" align=3D"center" cel=
+lpadding=3D"0" cellspacing=3D"0" style=3D"width:600px;display:block" role=
+=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"background-color:#fff;padding:0 10px;border-color:#000;border-=
+width:0;border-style:none;border-radius:0" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:580px;height:0" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;border-color:=
+#0000cd #0000cd #0000cd #000;border-width:1px 1px 1px 0;border-style:solid =
+none;padding:10px;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0"><p style=3D"line-height:1.25;margin:0;padding:0=
+;mso-line-height-rule:at-least"><span style=3D"font-size:22px"><span style=
+=3D"color:#0000cd"><span tabindex=3D"0" role=3D"region" aria-label=3D"widge=
+tLabel"><span tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><sp=
+an tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span tabindex=
+=3D"0" role=3D"region" aria-label=3D"widgetLabel">We can help you prepare f=
+or your future career</span></span></span></span></span></span></p></div>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[endif]----><div class=3D"emptyContainer columns-equal-cl=
+ass wrap-section" style=3D"font-family:Arial,Helvetica,sans-serif;color:#00=
+0;background-color:#fff;margin:0;border-radius:0"><!--[if gte mso 9]> </div=
+><div style=3D"background-color: transparent; border:none;"> <![endif]--><t=
+able class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" s=
+tyle=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr style=3D"padding: 0px;mso-line-height-rule: exactly=
+;line-height: 1px; background-color: rgb(255, 255, 255);" height=3D"0"><td>=
+&nbsp;</td></tr> <![endif]--><tr>
+<th style=3D"background-position:50% 50%;background-size:cover;background-o=
+rigin:border-box;background-color:#fff;padding:10px 20px 40px;border-color:=
+#000;border-width:0;border-style:none;border-radius:0" role=3D"presentation=
+">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:560px;height:0;padding:0;background-colo=
+r:rgba(0,0,0,0)" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner" style=3D"text-align:left;min-width:5px;vertical-align:t=
+op;word-wrap:break-word;word-break:break-word;background-color:rgba(0,0,0,0=
+);border-color:#000;border-width:0;border-style:none;padding:0;border-radiu=
+s:0;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:10px 10px 15px"><p style=3D"margin:0;padding:0;lin=
+e-height:1.25;mso-line-height-rule:at-least"><span style=3D"font-size:15px"=
+><span style=3D"font-family:Arial,Helvetica,sans-serif"><span id=3D"cke_bm_=
+4538S" style=3D"display:none">&nbsp;</span></span></span></p><p style=3D"ma=
+rgin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span styl=
+e=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica,sans-serif"=
+>Hi <span tabindex=3D"-1" role=3D"region" aria-label=3D"widgetLabel"><span =
+class=3D"msdynmkt_personalization" data-widget=3D"personalization">Han</spa=
+n></span>,&nbsp;</span></span></p><p style=3D"margin:0;padding:0;line-heigh=
+t:1.25;mso-line-height-rule:at-least"><span style=3D"font-size:15px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif">&nbsp;</span></span></p><p=
+ style=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least=
+"><span style=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica=
+,sans-serif">When it comes to careers, Imperial students are always in high=
+ demand. That=E2=80=99s because many of the world=E2=80=99s top employers k=
+now our graduates have a reputation for being innovative and entrepreneuria=
+l =E2=80=93 and have a degree from a university consistently ranked as one =
+of the best in the world. &nbsp;</span></span></p><p style=3D"margin:0;padd=
+ing:0;line-height:1.25;mso-line-height-rule:at-least"><span style=3D"font-s=
+ize:15px"><span style=3D"font-family:Arial,Helvetica,sans-serif">&nbsp;</sp=
+an></span></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-line-heig=
+ht-rule:at-least"><span style=3D"font-size:15px"><span style=3D"font-family=
+:Arial,Helvetica,sans-serif">It=E2=80=99s never too soon to think about lif=
+e after graduation and the support that can help you reach your career goal=
+s. From your first day at Imperial, you=E2=80=99ll have access to a huge ra=
+nge of services to help you prepare for =E2=80=93 and secure =E2=80=93 the =
+next step in your academic or professional life.&nbsp;</span></span></p><p =
+style=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"=
+><span style=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica,=
+sans-serif">&nbsp;</span></span></p><p style=3D"margin:0;padding:0;line-hei=
+ght:1.25;mso-line-height-rule:at-least"><strong><span style=3D"font-size:15=
+px"><span style=3D"font-family:Arial,Helvetica,sans-serif">One-to-one advic=
+e&nbsp;</span></span></strong></p><p style=3D"margin:0;padding:0;line-heigh=
+t:1.25;mso-line-height-rule:at-least"><span style=3D"font-size:15px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif">You can meet our specialis=
+t careers advisers at one-to-one appointments throughout the year for help =
+with planning your career journey, finding internships, practising intervie=
+ws and developing your CV. &nbsp;</span></span></p><p style=3D"margin:0;pad=
+ding:0;line-height:1.25;mso-line-height-rule:at-least"><br></p><p style=3D"=
+margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><strong>=
+<span style=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica,s=
+ans-serif">Expert mentoring&nbsp;</span></span></strong></p><p style=3D"mar=
+gin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span style=
+=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica,sans-serif">=
+Connect with our alumni mentors and tap into the experience of over 220,000=
+ Imperial graduates working across a range of industries and professional s=
+ectors around the world.&nbsp;</span></span></p><p style=3D"margin:0;paddin=
+g:0;line-height:1.25;mso-line-height-rule:at-least"><br></p><p style=3D"mar=
+gin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span style=
+=3D"font-size:15px"><span style=3D"font-family:Arial,Helvetica,sans-serif">=
+<strong>Skills workshops</strong>&nbsp;</span></span></p><p style=3D"margin=
+:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span style=3D=
+"font-size:15px"><span style=3D"font-family:Arial,Helvetica,sans-serif">We=
+=E2=80=99ve got a packed year-round programme of career development and suc=
+cess workshops to help you start mapping out your next steps.&nbsp;</span><=
+/span></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-line-height-r=
+ule:at-least"><br></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-l=
+ine-height-rule:at-least"><span style=3D"font-size:15px"><span style=3D"fon=
+t-family:Arial,Helvetica,sans-serif"><strong>Employer networking</strong>&n=
+bsp;</span></span></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-l=
+ine-height-rule:at-least"><span style=3D"font-size:15px"><span style=3D"fon=
+t-family:Arial,Helvetica,sans-serif">Meet top employers at our career fairs=
+, forums and networking events all year round. You can also find vacancies =
+for graduate roles, internships and work placement opportunities on our onl=
+ine careers management platform, JobsLive.</span></span></p></div><!--[if g=
+te mso 9]> <table align=3D"center"  style=3D"border-collapse: collapse;bord=
+er-spacing: 0px;padding: 0px; margin: 0px;" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" >
+<tr><style> .buttonWrapper a {border-style: none !important;} .buttonWrappe=
+r {padding: 0px !important; margin: 0px !important;} .buttonClass {mso-hide=
+: none !important;}</style>
+<td valign=3D"top" align=3D"center" width=3D"560"> <![endif]--><div align=
+=3D"center" style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;back=
+ground-color:transparent;margin:20px 0" class=3D"buttonWrapper"><!--[if gte=
+ mso 9]> <table  cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"=
+border-collapse: collapse;border-spacing: 0px;font-size: 0; line-height: 0;=
+">
+<tr style=3D"padding: 0px;mso-line-height-rule: exactly;line-height: 1px;" =
+height=3D"20"><td>&nbsp;</td></tr><tr>
+<td>
+<table  border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"" style=
+=3D" color: rgb(255, 255, 255); border-collapse: collapse;border-spacing: 0=
+px;">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"center"  style=3D"height: 18px; vertical-ali=
+gn: middle; align-content: center; text-align: center; color: rgb(255, 255,=
+ 255); font-family: Arial, Verdana, sans-serif"><v:roundrect style=3D"heigh=
+t:38px;v-text-anchor:middle; width:311px;" arcsize=3D"11%" stroke=3D"false"=
+ fillcolor=3D"rgb(0, 0, 128)" >
+<w:anchorlock/></v:roundrect>
+<v:shapetype id=3D"mytype"
+coordorigin=3D"0 0" coordsize=3D"200 200">
+<v:path v=3D"m 0,0 l 0,200, 200,200, 200,0 x e"></v:path>
+</v:shapetype>
+<v:shape xmlns:v=3D"urn:schemas-microsoft-com:vml" type=3D"#mytype" href=3D=
+"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynam=
+ics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u=
+0a4HTH7KFtyIgAAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25253=
+A%25252F%25252Fwww.imperial.ac.uk%25252Fcareers%25252F%2522%252C%2522Redire=
+ctOptions%2522%253A%257B%25226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a4=
+97f500dbeoprf%2522%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522u=
+tm_source%2522%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%25=
+20Journeys%2522%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_t=
+erm%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520=
+-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522=
+%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%252=
+02024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dd6km=
+ZW7mirKyStGxGAeHJBNqFo%252BuB3y4ZQ0Q2uB32w8%253D%26secretVersion%3da6751a3a=
+834744298598bfc7d73b336f&c=3DE,1,pMB9vtu6jqUhXR0I5eU9T65_ca4_xB1Lyw8LHRQCgx=
+M0I2bPZ9Gs2cC6NONyoQWJwAvoWUvleiEg91w_QeHg19IWpRt8TtwKLz3sF-o74Z-1abkc&typo=
+=3D1"  data-msdyn-tracking-id=3D"e134825ce60df1733751388428" fill=3D"false"=
+ stroke=3D"false" style=3D"position: absolute; top: 0px; left: 0px;padding:=
+ 0px;height:38px;width:311px;v-text-anchor:middle;">
+<v:textbox inset=3D"0,0,0,0"><center style=3D"font-family: Arial, Verdana, =
+sans-serif;font-size: 15px; color: rgb(255, 255, 255); font-weight: bold;">
+Learn more about our Careers service
+</center></v:textbox></v:shape></td></tr></tbody></table></td>
+</tr><tr style=3D"padding: 0px;" height=3D"20"/></table> <![endif]--> <!--[=
+if !mso]> <!----><a class=3D"buttonClass" href=3D"https://linkprotect.cudas=
+vc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff15=
+2573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIgEAAAA%3ftarge=
+t%3d%257B%2522TargetUrl%2522%253A%2522https%25253A%25252F%25252Fwww.imperia=
+l.ac.uk%25252Fcareers%25252F%2522%252C%2522RedirectOptions%2522%253A%257B%2=
+5226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dd6kmZW7mirKyStGxGAeHJBNqFo%252=
+BuB3y4ZQ0Q2uB32w8%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,8QJleBDkuU0N65rnXdYmdY7kLApnEl6k1koOT3U-kW048YmTo7vuQbUaFFKGdkd8hTII=
+fXokVlWhnidLmxctt6O2dz_vxiujgP6ofbhZ3CKSgw,,&typo=3D1" style=3D"text-align:=
+center;margin-right:auto;margin-left:auto;display:inline-block;text-decorat=
+ion:none;background-color:navy;border-radius:4px;color:#fff;width:fit-conte=
+nt;height:auto;padding:10px 20px;max-width:100%;line-height:normal;border-c=
+olor:#fff;border-width:0;border-style:none;font-size:15px;font-weight:700;m=
+so-hide:none!important" data-msdyn-tracking-id=3D"e134825ce60df173375138842=
+8">
+<span style=3D"font-family:Arial,Verdana,sans-serif;display:inline-block;mi=
+n-width:1px;text-decoration:none">Learn more about our Careers service</spa=
+n>
+</a><!--[endif]----></div><!--[if gte mso 9]> </td></tr></table> <![endif]-=
+-><div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;backgroun=
+d-color:transparent;margin:0 10px 3px"><p style=3D"margin:0;padding:0;line-=
+height:1.25;mso-line-height-rule:at-least"><span style=3D"font-size:20px"><=
+strong>Applying for internships =E2=80=93 how the Careers Service can help<=
+/strong></span></p></div><div style=3D"font-family:Arial,Helvetica,sans-ser=
+if;color:#000;background-color:transparent;margin:10px;padding:0"><div alig=
+n=3D"Center" class=3D"imageWrapper" style=3D"font-family:Arial,Helvetica,sa=
+ns-serif; color:#000; background-color:transparent;"><a href=3D"https://lin=
+kprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fap=
+i%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyI=
+gIAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25253A%25252F%252=
+52Fwww.youtube.com%25252Fwatch%25253Fv%25253DUwvnxSPlF7w%2522%252C%2522Redi=
+rectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253Anull%252=
+C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Cu=
+stomer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2=
+522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_cam=
+paign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG=
+%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2=
+520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%25=
+7D%257D%257D%26digest%3dWnRXa18GIF8RsFENqvwClUjTR5%252FEWufKOpvrLk3M01o%253=
+D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,5EPuuE-0U1tX6H=
+8ZoRdg2dbQWmAfswUjj52oYAyxuirzoy3PLol4oskH-TsSNk2-TofGwGxZ0fRaLfC4VYp60A6JM=
+HP3ldhYZUMkC9GFi-k,&typo=3D1" data-msdyn-tracking-id=3D"ba238f3ae6c71734001=
+213230" style=3D"text-decoration:none"><!--[if gte mso 9]> <img src=3D"http=
+s://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.c=
+om%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2f69680f=
+77-42b6-ef11-b8e9-7c1e522f2c1c%3fts%3d638693550103371275&c=3DE,1,ApyB6wUo29=
+KMUNT23wSJx1iHopsCfWXQ1Ca1s5myRgVQIXWHnP9q3-4KnJEvYWlC3_wOi_rx9Y93fp1lsFEpp=
+6QxjKR_YThga9Pqhu_L1g,,&typo=3D1" style=3D"text-decoration: none; border: 0=
+px; max-height: 100%; box-sizing: border-box; display: block; border-radius=
+: 0px; max-width: 100% !important;" alt=3D"A video thumbnail for the 'Aim's=
+ internship story' with a play button in the middle." width=3D"540" height=
+=3D"303"> <![endif]--> <!--[if !mso]> <!----><img src=3D"https://linkprotec=
+t.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-=
+fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2f69680f77-42b6-ef11-b=
+8e9-7c1e522f2c1c%3fts%3d638693550103371275&c=3DE,1,1cAYWMI8BX8sGYtc-DWkuqS4=
+gVRM2g-YvQmOp8znbhwsQedhRrdZeizIfpWDCw5BDjUVSGlTWcqjcJUzmCanv8ftGkET6BHQTDS=
+JTVk9TBp3qSK2YoRsyw,,&typo=3D1" style=3D"text-decoration:none;border:0;max-=
+height:100%;box-sizing:border-box;display:block;border-radius:0;max-width:1=
+00%!important" alt=3D"A video thumbnail for the 'Aim's internship story' wi=
+th a play button in the middle."><!--[endif]----></a></div></div><div style=
+=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-color:tran=
+sparent;margin:0 10px 10px"><p style=3D"margin:0;padding:0;line-height:1.25=
+;mso-line-height-rule:at-least"><span style=3D"font-size:15px">What should =
+you include on your CV? What does a good cover letter look like? How do you=
+ find the right company to apply to? &nbsp;</span></p><p style=3D"margin:0;=
+padding:0;line-height:1.25;mso-line-height-rule:at-least"><br></p><p style=
+=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><spa=
+n style=3D"font-size:15px">Biotechnology student Aim shares how Imperial=E2=
+=80=99s Careers Service helped answer these questions and more when she was=
+ looking for a summer internship in her first year.&nbsp;</span></p><p styl=
+e=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><br=
+></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:a=
+t-least"><span style=3D"color:navy"><u><span style=3D"text-decoration:under=
+line;font-size:15px"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhtt=
+ps%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a9=
+28-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIgMAAAA%3ftarget%3d%257B%2522Targ=
+etUrl%2522%253A%2522https%25253A%25252F%25252Fwww.youtube.com%25252Fwatch%2=
+5253Fv%25253DUwvnxSPlF7w%2522%252C%2522RedirectOptions%2522%253A%257B%25225=
+%2522%253Anull%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_s=
+ource%2522%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Jo=
+urneys%2522%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%=
+2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%25=
+20Nurture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252=
+C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%2520202=
+4%2520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dWnRXa18G=
+IF8RsFENqvwClUjTR5%252FEWufKOpvrLk3M01o%253D%26secretVersion%3da6751a3a8347=
+44298598bfc7d73b336f&c=3DE,1,zd_IEMuic5cqS_LrxkZ-srTMMhkZNQuJd8UHvF-dYmdT3P=
+POjhOxt_8QjarBfprhkU4sWn3YjYz_dzeGu0rGWWurtaLmtjhRJAgrnljHMXc,&typo=3D1" st=
+yle=3D"text-decoration:underline"><span style=3D"text-decoration:underline;=
+color:navy"><u>Watch Aim=E2=80=99s internship story</u></span></a></span></=
+u></span><span style=3D"font-size:15px">&nbsp;</span></p><p style=3D"margin=
+:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><br><strong>Ch=
+ristmas closure =F0=9F=8E=84&nbsp;</strong></p><p style=3D"margin:0;padding=
+:0;line-height:1.25;mso-line-height-rule:at-least"><br></p><p style=3D"marg=
+in:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span style=
+=3D"font-size:15px">Imperial will be closed for the Christmas holidays from=
+ Friday 20 December 2024 and will re-open on Thursday 2 January 2025. &nbsp=
+;</span></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-line-height=
+-rule:at-least"><br></p><p style=3D"margin:0;padding:0;line-height:1.25;mso=
+-line-height-rule:at-least"><span style=3D"font-size:15px">If you email us =
+during this time, we will reply as soon as we can when the university re-op=
+ens in the new year. &nbsp;</span></p><p style=3D"margin:0;padding:0;line-h=
+eight:1.25;mso-line-height-rule:at-least"><br></p><p style=3D"margin:0;padd=
+ing:0;line-height:1.25;mso-line-height-rule:at-least"><span style=3D"font-s=
+ize:15px">You can also explore our online </span><span style=3D"color:null"=
+><u><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic=
+-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2=
+fr%2f9y7sBug8u0a4HTH7KFtyIgQAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2=
+522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fhelp-cent=
+re%25252F%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%253A%2522=
+mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253Anull%2=
+52C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520=
+Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A=
+%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_c=
+ampaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520=
+UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-=
+%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%=
+257D%257D%257D%26digest%3dmIaZeeglBH48Gf0PvRRLVYup7HXlqiI8vC57saXM1hE%253D%=
+26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,Q1ROz0EHG6a8wdlW=
+dFWvMujTc7PuN-oVkzleo6jJkOPzOhF5qFP9A1m3XgeGI_YXcEHP38CeY5IprV9MyEt_a7awC07=
+GQeQv9lzrl9mt&typo=3D1" style=3D"text-decoration:underline"><span style=3D"=
+text-decoration:underline;font-size:15px"><span style=3D"text-decoration:un=
+derline;color:navy">Help Centre</span></span></a></u></span><span style=3D"=
+font-size:15px"> to find answers to common questions on admissions about, f=
+unding, student support and more. &nbsp;&nbsp;</span></p><p style=3D"margin=
+:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><br></p><p sty=
+le=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><s=
+pan style=3D"font-size:15px">Happy holidays! &nbsp;</span></p></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr style=3D"padding: 0px;mso-line-height-rule: exactly=
+;line-height: 1px; background-color: rgb(255, 255, 255);" height=3D"0"><td>=
+&nbsp;</td></tr> <![endif]--></tbody>
+</table></div><div style=3D"font-family:Arial,Helvetica,sans-serif;color:#0=
+00;background-color:#fff" class=3D"emptyContainer columns-equal-class no-wr=
+ap-section hide-on-mobile-class"><!--[if gte mso 9]> </div><div style=3D"ba=
+ckground-color: transparent; border:none;"> <![endif]--><table style=3D"dis=
+play:block" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" class=3D"o=
+uter" role=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"background-color:#fff;border-color:#000;border-width:1px;borde=
+r-style:solid none" role=3D"presentation">
+<table cellspacing=3D"0" cellpadding=3D"0" class=3D"containerWrapper tbCont=
+ainer multi" style=3D"width:100%;border-collapse:collapse" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th style=3D"font-weight:400;text-align:left;vertical-align:top;min-width:5=
+px;width:198px;max-width:33%;height:0;background-color:rgba(255,255,255,0)"=
+ class=3D"columnContainer" role=3D"presentation">
+<table style=3D"height:100%" cellspacing=3D"0" cellpadding=3D"0" width=3D"1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"text-align:left;min-width:5px;vertical-align:top;word-wrap:bre=
+ak-word;word-break:break-word;background-color:rgba(255,255,255,0);padding:=
+20px;font-weight:400" class=3D"columnContainer inner" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div width=3D"100%" style=3D"font-family:Arial,Helvetica=
+,sans-serif; color:#000; background-color:transparent; width:100%;" class=
+=3D"imageWrapper" align=3D"center"><a data-msdyn-tracking-id=3D"808587171e6=
+fe1696603586197" href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2=
+f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8=
+e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIgUAAAA%3ftarget%3d%257B%2522TargetUrl%2=
+522%253A%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252=
+Fchat-to-our-students%2522%252C%2522RedirectOptions%2522%253A%257B%25226%25=
+22%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%252=
+2%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%=
+2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medi=
+um%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%25=
+2C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicant=
+s%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2=
+522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Appl=
+icants%2522%257D%257D%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9d=
+uSY%252Bag%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,=
+HEZDx7MxqEVXQXsv8me8ZFmmD9smO1sIZ77rftWJtnVU9wXal4-LSSCIgFSTvD5MTwj-E_RPvIw=
+-l8lTEfkOGdNYrBoHwQEc66GK2dumFFGdjIxk-5QB7R5rvMw,&typo=3D1" style=3D"text-d=
+ecoration:none"><img alt=3D"An Imperial student" width=3D"86" height=3D"86"=
+ style=3D"text-decoration:none;border:0;max-height:100%;box-sizing:border-b=
+ox;display:block;margin-left:auto;margin-right:auto;height:86px;width:86px;=
+max-width:100%!important" src=3D"https://linkprotect.cudasvc.com/url?a=3Dht=
+tps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc=
+426%2fdigitalassets%2fimages%2f6d92d6d7-6059-ee11-be6f-6045bdcf8c9b%3fts%3d=
+638309951052032845&c=3DE,1,2U1owoZsR4644qpeOWC10UVAjAFDdU8ALunn49LeLYPgmkUG=
+PeL8bT3rJF1Ui9K8KUKt3yDx03iVsxG5t0CVeTy_syUE5fSQmU1_lRCjccrQtOc,&typo=3D1">=
+</a><div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;backgro=
+und-color:transparent;clear:both;height:0;width:0" class=3D"clear"></div></=
+div></div>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+<th style=3D"font-weight:400;text-align:left;vertical-align:top;min-width:5=
+px;width:402px;max-width:67%;height:126px;min-height:126px" class=3D"column=
+Container columnContainerWrapper" role=3D"presentation"><table style=3D"hei=
+ght:100%;min-height:126px" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" role=3D"presentation" class=3D"innerTable">
+<tbody>
+<tr>
+<th style=3D"text-align:left;padding-top:20px;padding-right:10px;padding-bo=
+ttom:20px;min-width:5px;vertical-align:middle;word-wrap:break-word;word-bre=
+ak:break-word;font-weight:400;height:86px;min-height:86px" class=3D"columnC=
+ontainer inner" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0 30px 0 0"><p style=3D"line-height:1.25;margin:0;=
+padding:0;mso-line-height-rule:at-least"><span style=3D"font-size:15px">Hea=
+r about life at Imperial from a current student.</span></p><p style=3D"line=
+-height:1.25;margin:0;padding:0;mso-line-height-rule:at-least"><span style=
+=3D"font-size:15px"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttp=
+s%3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a92=
+8-b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIgYAAAA%3ftarget%3d%257B%2522Targe=
+tUrl%2522%253A%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy=
+%25252Fchat-to-our-students%2522%252C%2522RedirectOptions%2522%253A%257B%25=
+226%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%252=
+21%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dyn=
+amics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522ut=
+m_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2=
+522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520App=
+licants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%=
+253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%25=
+20Applicants%2522%257D%257D%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY=
+7uFN9duSY%252Bag%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,fzyBvJ7c4xzCfPrekb5FQOmcg90SNvhzSM0j8hRhiHo1qyLxnp7fySDk0Urz48JUQ7V5=
+reYENBU8v0T2gzdxLP30PvW5Pr_ZLyq9EgmIIWfMEhaRwQ_G-37R&typo=3D1" style=3D"tex=
+t-decoration:none"><span style=3D"color:#3498db"><span style=3D"font-size:1=
+5px">Chat to a student</span></span></a></span></p></div></th>
+</tr>
+</tbody>
+</table></th></tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[if !mso]> <!----><div class=3D"emptyContainer columns-eq=
+ual-class hide-on-desktop-class no-wrap-section" style=3D"font-family:Arial=
+,Helvetica,sans-serif;color:#000;display:none;background-color:#fff"><table=
+ class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"width:600px;display:block" role=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"background-color:#fff;border-color:#000;border-width:1px;borde=
+r-style:solid none" role=3D"presentation">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer columnContainerWrapper" style=3D"font-weight:4=
+00;text-align:left;vertical-align:top;min-width:5px;width:198px;max-width:3=
+3%;height:116px;min-height:116px" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%;min-height:116px" role=3D"presentation" class=3D"innerTable">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:middle;word-wrap:break-word;word-break:break-word;background=
+-color:rgba(255,255,255,0);font-weight:400;height:116px;min-height:116px" r=
+ole=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin-top:15px;margin-bottom:15px"><div align=3D"right" =
+class=3D"imageWrapper" style=3D"font-family:Arial,Helvetica,sans-serif; col=
+or:#000; background-color:transparent; width:100%;" width=3D"100%"><a href=
+=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dy=
+namics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBu=
+g8u0a4HTH7KFtyIgcAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25=
+253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fchat-to-our-students=
+%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%253A%2522mktprf077=
+00ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253Anull%252C%25222=
+%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Customer%=
+2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522emai=
+l%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2=
+522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%=
+2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurt=
+ure%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D=
+%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY%252Bag%253D%26sec=
+retVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,EhMSsZ4nzM4eBI4b5u8w9=
+DeoQ5FyeL7gOwMsXT8wBoY4D4stZU7HJNdE_bfqQs7iGkBJMVvrbFkwoxiDoXZygYo502zyo3f4=
+o44TLh3ufOf3SW44OI7WKvXR&typo=3D1" data-msdyn-tracking-id=3D"252df64bd68731=
+696603581580" style=3D"text-decoration:none"><img src=3D"https://linkprotec=
+t.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff152573f-=
+fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2f6d92d6d7-6059-ee11-b=
+e6f-6045bdcf8c9b%3fts%3d638309951052032845&c=3DE,1,o_EJSILKEQczjMwRFcPRYJpW=
+dhf0kKkht6UapyMrhmqGYM9Ed-f1vLyQd6901fARZ6Mkz_VdWEQMpY1As8bj5stiQ9bfnAPNP2f=
+QiFzCeHrS&typo=3D1" style=3D"text-decoration:none;border:0;max-height:100%;=
+box-sizing:border-box;display:block;margin-left:auto;margin-right:0;height:=
+86px!important;width:86px!important;max-width:100%!important" height=3D"86"=
+ width=3D"86" alt=3D"An Imperial student"></a><div class=3D"clear" style=3D=
+"font-family:Arial,Helvetica,sans-serif;color:#000;background-color:transpa=
+rent;clear:both;height:0;width:0"></div></div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"columnContainer columnContainerWrapper" style=3D"font-weight:4=
+00;text-align:left;vertical-align:top;min-width:5px;width:402px;max-width:6=
+7%;height:116px;min-height:116px" role=3D"presentation"><table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:100%;min-height:116p=
+x" role=3D"presentation" class=3D"innerTable">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:middle;word-wrap:break-word;word-break:break-word;background=
+-color:rgba(255,255,255,0);font-weight:400;height:116px;min-height:116px" r=
+ole=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:10px 30px 10px 10px"><p style=3D"margin:0;padding:=
+0;line-height:1.25;mso-line-height-rule:at-least"><span style=3D"line-heigh=
+t:1.15"><span style=3D"font-size:12px;line-height:1.15">Hear about life at =
+Imperial from a current student.&nbsp;</span></span></p><p style=3D"margin:=
+0;padding:0;line-height:1.25;mso-line-height-rule:at-least"><span style=3D"=
+line-height:1.15"><span style=3D"font-size:12px;line-height:1.15"><a href=
+=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dy=
+namics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBu=
+g8u0a4HTH7KFtyIggAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25=
+253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fchat-to-our-students=
+%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%253A%2522mktprf077=
+00ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253Anull%252C%25222=
+%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520Customer%=
+2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%2522emai=
+l%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_campaign%2=
+522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520UG%2520-%=
+2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%2520Nurt=
+ure%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%257D%257D=
+%257D%26digest%3dsMJtLiuBTxZ7SNwnTN2AuBFjDuRFCuY7uFN9duSY%252Bag%253D%26sec=
+retVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,_EAL014Ho-WJP_mq25wt1=
+kTgusOrL9ZLw5whnQSO07uCQrkEBapCdlfhR4Cn5psN3Hg25w_Uy45JA0bVAm4jhJC0VNDf2IGm=
+QFbzCpHPDy67B7MqF4UU&typo=3D1" style=3D"text-decoration:none;line-height:1.=
+15"><span style=3D"color:#3498db"><span style=3D"font-size:12px">Chat to a =
+student</span></span></a></span></span></p></div></th>
+</tr>
+</tbody>
+</table></th></tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[endif]----><!--[if !mso]> <!----><div class=3D"emptyCont=
+ainer columns-equal-class no-wrap-section hide-on-desktop-class" style=3D"f=
+ont-family:Arial,Helvetica,sans-serif;color:#000;display:none;background-co=
+lor:#e6e6e6"><table class=3D"outer" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"width:600px;display:block" role=3D"presentation">
+<tbody>
+<tr>
+<th style=3D"padding:20px 50px;background-color:#e6e6e6" role=3D"presentati=
+on">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" role=
+=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIgkAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.facebook.com%25252Fimperialcollegelondon=
+%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%2522=
+1%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dyna=
+mics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm=
+_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%25=
+22%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Appl=
+icants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%2=
+53A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%252=
+0Applicants%2522%257D%257D%257D%26digest%3dzNaLbnQIqb5yhNwDOv2hMXRyoOuyFs%2=
+52BMYu%252BGlWxdUoc%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f=
+&c=3DE,1,taWD_d8K89Qle8_WaMZkq-0aqSbR5O9BIz8HYwvczdXjtF8gExi6XShJWhEse0kehn=
+jYifHxI02XDBS3Lj3g-UmgUCQcHvfFK0jvrpaPmmJsBD2jDAhbNH94ssrf&typo=3D1" data-m=
+sdyn-tracking-id=3D"bb4005a75083e1695398687150" style=3D"text-decoration:no=
+ne"><img src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fasset=
+s-gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalasse=
+ts%2fimages%2fa227eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d63830994631471629=
+9&c=3DE,1,TwJ_ixKBWmQETCnIZ9WJsq4gMwrQ4sRvFrlaeMGJCaxYYx6G9-x23om1PIK2wXyYG=
+XkaoEX1ykXJ7AwSO7nU1RgaJ-0v7LZyQz37Gr2DQJ7yV_ehcDo,&typo=3D1" style=3D"text=
+-decoration:none;border:0;max-height:100%;box-sizing:border-box;display:blo=
+ck;height:20px!important;width:20px!important;max-width:100%!important" hei=
+ght=3D"20" width=3D"20" alt=3D"Facebook"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIgoAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.youtube.com%25252Fuser%25252Fimperialcol=
+legevideo%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%=
+252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A=
+%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252=
+C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N=
+%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-=
+%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_conte=
+nt%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%=
+2520-%2520Applicants%2522%257D%257D%257D%26digest%3dNaWea1eMG8tKtHqfgJwTFR5=
+UZw%252BPMla3yP3V1oqkseA%253D%26secretVersion%3da6751a3a834744298598bfc7d73=
+b336f&c=3DE,1,JNtAxTX4cJrh0MIgBUhMIXYMbQltpv4AoR1MEMiSrUzfRWnE1pL5AmwI0-er7=
+bVYO_-x4CEKuiyVNlbXF0MTKXnj9WWFkZwZH6NuFqaX&typo=3D1" data-msdyn-tracking-i=
+d=3D"a9eda67b956ec1695398600975" style=3D"text-decoration:none"><img src=3D=
+"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynam=
+ics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2ff=
+b27eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946330966960&c=3DE,1,6ptnU=
+0W4q6p1LNZ-yDXr00uNVf3VN6Vvzlbz57-V36Z5cpjhs75c0GfkTa-pmDFYS-h7fMMb1BMa9k8o=
+WKy3UFUeI-mrFX2oavZijGKiXPXwEBBQ6ZeNtQ,,&typo=3D1" style=3D"text-decoration=
+:none;border:0;max-height:100%;box-sizing:border-box;display:block;height:2=
+0px!important;width:20px!important;max-width:100%!important" height=3D"20" =
+width=3D"20" alt=3D"YouTube"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIgsAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Ftwitter.com%25252Fimperialcollege%2522%252C%=
+2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253A=
+null%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%252036=
+5%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%252=
+2%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%252=
+2utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520=
+-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA=
+%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants=
+%2522%257D%257D%257D%26digest%3dcmrs%252B1d%252FFeBCSPHSicT0hp2So%252F9HLHv=
+FKIfjZ9EhUbs%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,=
+1,6-kOVujoY_VSo3_b1BQMMbULn33L25514BpJ5LHyehvTyv9xT5OkW3FY9vmIdlR5CgO5OYtsg=
+hUfaoo1XtzWKLXoCP0_D8LnoWEfVGUtxH7O9COaUHsE-s6t&typo=3D1" data-msdyn-tracki=
+ng-id=3D"707fdb513cd931695398635617" style=3D"text-decoration:none"><img sr=
+c=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.d=
+ynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages=
+%2fd327eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946318466466&c=3DE,1,z=
+0pb-ZoePlHUQRmfsK_7LI91CNcKcHMj3sx6INc7WI89gbTMcA1lME8aiK9_wRfcCeRFwPipfT2r=
+pRX9c-DBoMaWBBevBTNzLNyME11LK1wgM_LONb9NzWk4&typo=3D1" style=3D"text-decora=
+tion:none;border:0;max-height:100%;box-sizing:border-box;display:block;widt=
+h:20px!important;height:20px!important;max-width:100%!important" width=3D"2=
+0" height=3D"20" alt=3D"X (formerly Twitter)"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIgwAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.linkedin.com%25252Fschool%25252Fimperial=
+-college-london%25252Fmycompany%25252Fverification%25252F%2522%252C%2522Red=
+irectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253Anull%25=
+2C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520C=
+ustomer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%=
+2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_ca=
+mpaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520U=
+G%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%=
+2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%2=
+57D%257D%257D%26digest%3dm1rBiMbO4XyAvbzzW2RHKW2vSW3GVWDChqpEqijp%252FdU%25=
+3D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,D2vbApf2zZkIa=
+VNxv9V2jRtedGYG-ouIGkYdXpp8mJUiMeLwQ9miOpnjnGPkvR-THGbf9cIoJxDz1Mn_LnyRUDkv=
+7S3cmedzfy9hVnCeSiyTzNWuoBzFoqc005dI&typo=3D1" data-msdyn-tracking-id=3D"5d=
+2dd43812821695398658461" style=3D"text-decoration:none"><img src=3D"https:/=
+/linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%=
+2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2fa027eabd-=
+5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946317997677&c=3DE,1,xvLxDi1jH3Qxv=
+rkq_MYKSgpWfHHRyeTnycFNFd3sYvOMmHwCWMmZoTYdYZ4yt8x5MekJH7237N4ELB85wlJCOOus=
+wgrzyRI6vS-Qx8SX-w,,&typo=3D1" style=3D"text-decoration:none;border:0;max-h=
+eight:100%;box-sizing:border-box;display:block;height:20px!important;width:=
+20px!important;max-width:100%!important" height=3D"20" width=3D"20" alt=3D"=
+LinkedIn"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIg0AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.tiktok.com%25252F%252540imperialcollege%=
+2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221=
+%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynam=
+ics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_=
+medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%252=
+2%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Appli=
+cants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%25=
+3A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520=
+Applicants%2522%257D%257D%257D%26digest%3d9vLuZOm1X8EoF%252FjEbhrzw3nygucXB=
+v7BPdk2Ej7qIeY%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3D=
+E,1,RNWrmnubBuvu6DmlVhTIebofT8b1GxAZ4aglITLCytVInlSoxn5_H597Yvo5M3l7sP4Rs4e=
+wjsl152aWyoX5NG7HU_QvQ7R11nMuBQMaO7Q,&typo=3D1" data-msdyn-tracking-id=3D"8=
+73a9bff489411695398579916" style=3D"text-decoration:none"><img src=3D"https=
+://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.co=
+m%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2f9f27eab=
+d-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946314716299&c=3DE,1,x-eEhcBc3ma=
+6195u6wZgxJhJnZ1HY-DVN3QIUBQT5j7oOEWJcbOv8Qtjodi50BEe0_YrTaPOk1wXEPH0T6pj0z=
+ecDcX8gP4rngjwJsbhgaUhQysp&typo=3D1" style=3D"text-decoration:none;border:0=
+;max-height:100%;box-sizing:border-box;display:block;height:20px!important;=
+width:20px!important;max-width:100%!important" height=3D"20" width=3D"20" a=
+lt=3D"TikTok"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:83.35px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner" style=3D"text-align:left;min-width:5px;=
+vertical-align:top;word-wrap:break-word;word-break:break-word;font-weight:4=
+00" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIg4AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.instagram.com%25252Fimperialcollege%2525=
+2F%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dSxGiTshfQ9BJIuw5u6sFZAd3wT%252=
+BTztrw99CZS5s37I4%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,N2TDKcrpUBnfLc5A2oRBh9ty3_rKX7HkVG-3bM_DZYnillB2-IZTP2vO9xW85EkWQwqi=
+myjWnXjVzcVWOzT2HCVhn5KsoJZWx9b0sl36jOr72MSSDY3jyWnjZg,,&typo=3D1" data-msd=
+yn-tracking-id=3D"3f728245a3a4d1695398617112" style=3D"text-decoration:none=
+"><img src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-=
+gbr.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets=
+%2fimages%2fa327eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946314872580&=
+c=3DE,1,MiSnca65bbGqAvi9ZLSEpLTdgjEgSrxpsRfTabzPFjY7dwRVg1JysZReAaIexhu7Yxb=
+oGAGOaTcWyQJHBoSseDsrHW9_bzTq0HnOxV0flDTjpQs3-B01PP6kSbY,&typo=3D1" style=
+=3D"text-decoration:none;border:0;max-height:100%;box-sizing:border-box;dis=
+play:block;height:20px!important;width:20px!important;max-width:100%!import=
+ant" height=3D"20" width=3D"20" alt=3D"Instagram"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table></div><!--[endif]----><div class=3D"emptyContainer columns-equal-cl=
+ass no-wrap-section hide-on-mobile-class" style=3D"font-family:Arial,Helvet=
+ica,sans-serif;color:#000;background-color:#e6e6e6"><!--[if gte mso 9]> </d=
+iv><div style=3D"background-color: transparent; border:none;"> <![endif]-->=
+<table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr style=3D"padding: 0px;mso-line-height-rule: exactly=
+;line-height: 1px; background-color: rgb(230, 230, 230);" height=3D"0"><td>=
+&nbsp;</td></tr> <![endif]--><tr>
+<th style=3D"padding:20px 150px;background-color:#e6e6e6" role=3D"presentat=
+ion">
+<table style=3D"width:100%;border-collapse:collapse" class=3D"containerWrap=
+per tbContainer multi" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" role=
+=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIg8AAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.facebook.com%25252Fimperialcollegelondon=
+%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%2522=
+1%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dyna=
+mics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm=
+_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%25=
+22%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Appl=
+icants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%2=
+53A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%252=
+0Applicants%2522%257D%257D%257D%26digest%3dzNaLbnQIqb5yhNwDOv2hMXRyoOuyFs%2=
+52BMYu%252BGlWxdUoc%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f=
+&c=3DE,1,0L6UTnuZ2yxIpx9nKMKaiJXlBYvnA4PxDyjykDd3TLWwGzE9aD9yRCEXLMltuk4yxc=
+4JWHv7SDGe3YgX9HEAI8rizQsq1vIdL97MoDHZjs8hAk8R&typo=3D1" data-msdyn-trackin=
+g-id=3D"fc8e2e18164491695733086043" style=3D"text-decoration:none"><img src=
+=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dy=
+namics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%=
+2fa227eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946314716299&c=3DE,1,Hv=
+PHlsa854sIRhAlPrPUXDFSz2-KLGu36rrmR80TryKil7infhGfjIQ5FhVSmK5mSTwJI9VY-1gCP=
+pOhPI_EjiDUZWM-BfiPQ-GzG6GxRH7NxHh0zg,,&typo=3D1" style=3D"text-decoration:=
+none;border:0;max-height:100%;box-sizing:border-box;display:block;height:20=
+px!important;width:20px!important;max-width:100%!important" height=3D"20" w=
+idth=3D"20" alt=3D"Facebook"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhAAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.youtube.com%25252Fuser%25252Fimperialcol=
+legevideo%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%=
+252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A=
+%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252=
+C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N=
+%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-=
+%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_conte=
+nt%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%=
+2520-%2520Applicants%2522%257D%257D%257D%26digest%3dNaWea1eMG8tKtHqfgJwTFR5=
+UZw%252BPMla3yP3V1oqkseA%253D%26secretVersion%3da6751a3a834744298598bfc7d73=
+b336f&c=3DE,1,g0inB8EfRK0249g_4pXOaFbkX8NqMuMYrvaCUvA4GqQg6gSN8RzL4rpxvmepY=
+Q0GQeHT7yJdRLAkZtCRz25FpwUFIXEWD7hMUfXy0qbDPqWTfc-nh9c,&typo=3D1" data-msdy=
+n-tracking-id=3D"cdd9d551bc1b41695733086043" style=3D"text-decoration:none"=
+><img src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-g=
+br.mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%=
+2fimages%2ffb27eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946330966960&c=
+=3DE,1,HZKQPhZB414BM-zuiaegMiXd0DD4Di7d1YW10DffRfFIgt5UD7o6-lXccuEQ68Bw7VY1=
+iKr9fGN5CRHbXnVcOz0h0xGL2OIjBXBMnPe1nj24I4vDFA,,&typo=3D1" style=3D"text-de=
+coration:none;border:0;max-height:100%;box-sizing:border-box;display:block;=
+height:20px!important;width:20px!important;max-width:100%!important" height=
+=3D"20" width=3D"20" alt=3D"YouTube"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhEAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Ftwitter.com%25252Fimperialcollege%2522%252C%=
+2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253A=
+null%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%252036=
+5%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%252=
+2%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%252=
+2utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520=
+-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA=
+%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants=
+%2522%257D%257D%257D%26digest%3dcmrs%252B1d%252FFeBCSPHSicT0hp2So%252F9HLHv=
+FKIfjZ9EhUbs%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,=
+1,x7Ncvp6Z5IGS8dtRFUunpP2ldd220yo_VQX5admKqdfg3IKv-dO6aX_stqnYxI4nGWrDDM0b0=
+utm4FA5oM9RH3uvRhw61cLOt19om0gH&typo=3D1" data-msdyn-tracking-id=3D"5e0882d=
+ebec211695733086043" style=3D"text-decoration:none"><img src=3D"https://lin=
+kprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com%2ff1=
+52573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2fd327eabd-5f59=
+-ee11-be6f-6045bdcf8c9b%3fts%3d638309946318466466&c=3DE,1,8gk6yTVcU3bf8mtdU=
+OCW6XOXLGIeNHoIY-G39BUPcyfx5tFdaWe9ZgpZYjZ-mnjyJMaRU66NuixflHjg5oEzKCgQ0WjM=
+SmLgl7ZCRwOEthUIKvTtFsY,&typo=3D1" style=3D"text-decoration:none;border:0;m=
+ax-height:100%;box-sizing:border-box;display:block;width:20px!important;hei=
+ght:20px!important;max-width:100%!important" width=3D"20" height=3D"20" alt=
+=3D"X (formerly Twitter)"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhIAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.linkedin.com%25252Fschool%25252Fimperial=
+-college-london%25252Fmycompany%25252Fverification%25252F%2522%252C%2522Red=
+irectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221%2522%253Anull%25=
+2C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%2520C=
+ustomer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%253A%=
+2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm_ca=
+mpaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%2520U=
+G%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%2520-%=
+2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%2522%2=
+57D%257D%257D%26digest%3dm1rBiMbO4XyAvbzzW2RHKW2vSW3GVWDChqpEqijp%252FdU%25=
+3D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,iTd4UoPoSzsQJ=
+H3hv4w4N9n2RtBxWb18XX3hLN7HVGeovsQ-PfrR0bDpvGoL-W_LY98oSHGVbE4Utk1UXEtXO-q9=
+E9i28xvKTRkY74wdrXYGlm6NsnW4EGmG3rh2&typo=3D1" data-msdyn-tracking-id=3D"d0=
+2ebe87ff41e1695733086043" style=3D"text-decoration:none"><img src=3D"https:=
+//linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dynamics.com=
+%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%2fa027eabd=
+-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946317997677&c=3DE,1,HolHoUXXmatB=
+ZNmjUjcr-WqEYY556Hq9x8-rjI8llwTX0dVjsa-jXniaCN1f57KROE9YUb39KgWJRQvAjq7LDE3=
+UlexU5vucFZJXhCc76z-grddTrd-vUY-Seg,,&typo=3D1" style=3D"text-decoration:no=
+ne;border:0;max-height:100%;box-sizing:border-box;display:block;height:20px=
+!important;width:20px!important;max-width:100%!important" height=3D"20" wid=
+th=3D"20" alt=3D"LinkedIn"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhMAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.tiktok.com%25252F%252540imperialcollege%=
+2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25221=
+%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynam=
+ics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_=
+medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%252=
+2%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Appli=
+cants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%25=
+3A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520=
+Applicants%2522%257D%257D%257D%26digest%3d9vLuZOm1X8EoF%252FjEbhrzw3nygucXB=
+v7BPdk2Ej7qIeY%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3D=
+E,1,jopMYI2AqLCPCBNdJ8_lGsnIf2Ruw4EeYZHlxMdj07bzTCcCoVb9y7DV3ojL9k6BuW6KVFs=
+KEkRWKpOMjZ_9ja_aEo-I13I7JQhXZK99WXjjx0g2uQ,,&typo=3D1" data-msdyn-tracking=
+-id=3D"eba1f2cb0f1361695733086043" style=3D"text-decoration:none"><img src=
+=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.mkt.dy=
+namics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fimages%=
+2f9f27eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946314716299&c=3DE,1,hz=
+AsNYP3uIa1d0CRzqVKaBWy4sHaiydtFymTRc51h1bY3EKtxBk9j0AesKygxCvqnTO-xvnUo3ezw=
+9wlRv9YC1FDHUyRMEhP29WAwUWBr8adIA,,&typo=3D1" style=3D"text-decoration:none=
+;border:0;max-height:100%;box-sizing:border-box;display:block;height:20px!i=
+mportant;width:20px!important;max-width:100%!important" height=3D"20" width=
+=3D"20" alt=3D"TikTok"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th><th class=3D"columnContainer" style=3D"font-weight:400;text-align:left=
+;vertical-align:top;min-width:5px;width:50.01px;height:0;max-width:16.67%" =
+role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer inner narrowContainer" style=3D"text-align:lef=
+t;min-width:5px;vertical-align:top;word-wrap:break-word;word-break:break-wo=
+rd;font-weight:400" role=3D"presentation">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent"><div align=3D"Center" class=3D"imageWrapper" style=3D"fo=
+nt-family:Arial,Helvetica,sans-serif; color:#000; background-color:transpar=
+ent;"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhQAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.instagram.com%25252Fimperialcollege%2525=
+2F%2522%252C%2522RedirectOptions%2522%253A%257B%25225%2522%253Anull%252C%25=
+221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dy=
+namics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522u=
+tm_medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%=
+2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Ap=
+plicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522=
+%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2=
+520Applicants%2522%257D%257D%257D%26digest%3dSxGiTshfQ9BJIuw5u6sFZAd3wT%252=
+BTztrw99CZS5s37I4%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=
+=3DE,1,cEdv7COKKCSsfl_Biwq5vsxePTIugb_66tm3Y8NZGqr__cYwjgiJBdEiL6_9OjlwfFzi=
+nVKVLs26aXLloHxsLb1SPczN89k4o8lwou9iwerKv9Ey6TceUez6&typo=3D1" data-msdyn-t=
+racking-id=3D"58bd2ac664f6e1695733086043" style=3D"text-decoration:none"><i=
+mg src=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fassets-gbr.=
+mkt.dynamics.com%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fdigitalassets%2fi=
+mages%2fa327eabd-5f59-ee11-be6f-6045bdcf8c9b%3fts%3d638309946314872580&c=3D=
+E,1,65XXwYyRotk8ZVmvv-v2a-Lxse8q-Auij532Trcik2BRenMnDIslmcvAK7l6y8NbfrFGdPR=
+SvE8eOeX3kDXemPj9qkyJ3YbS_6opr8BgjnFK9kFcfYuSJQ,,&typo=3D1" style=3D"text-d=
+ecoration:none;border:0;max-height:100%;box-sizing:border-box;display:block=
+;height:20px!important;width:20px!important;max-width:100%!important" heigh=
+t=3D"20" width=3D"20" alt=3D"Instagram"></a></div></div></th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr style=3D"padding: 0px;mso-line-height-rule: exactly=
+;line-height: 1px; background-color: rgb(230, 230, 230);" height=3D"0"><td>=
+&nbsp;</td></tr> <![endif]--></tbody>
+</table></div><div class=3D"columns-equal-class wrap-section" style=3D"font=
+-family:Arial,Helvetica,sans-serif;color:#000;background-color:#e6e6e6"><!-=
+-[if gte mso 9]> </div><div style=3D"background-color: transparent; border:=
+none;"> <![endif]-->
+<table class=3D"outer" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"border-collapse:collapse;display:block" role=3D"presentation">
+<tbody>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;background=
+-color: rgb(230, 230, 230);"><p style=3D"font-size: 0px;height:0px; margin:=
+ 0px; padding:0;line-height: 0px; mso-line-height-rule: exactly; background=
+-color: transparent;"><br/></p></td></tr> <![endif]--><tr>
+<th style=3D"background-color:#e6e6e6;border-radius:0" role=3D"presentation=
+">
+<table style=3D"display:block;width:100%;border-collapse:collapse" class=3D=
+"containerWrapper tbContainer" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation">
+<tbody>
+<tr>
+<th class=3D"columnContainer" style=3D"font-weight:400;text-align:left;vert=
+ical-align:top;min-width:5px;width:600px;height:0" role=3D"presentation">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:1=
+00%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"inner ui-sortable" style=3D"text-align:left;min-width:5px;vert=
+ical-align:top;word-wrap:break-word;word-break:break-word;padding-bottom:15=
+px;padding-left:15px;padding-right:15px;font-weight:400" role=3D"presentati=
+on">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;color:#000;background-=
+color:transparent;margin:0"><p style=3D"margin:0;padding:0;line-height:1.25=
+;mso-line-height-rule:at-least;text-align:center"><span style=3D"color:#373=
+a36"><span style=3D"font-size:12px">You have received this email following =
+your application for undergraduate study at Imperial. Imperial is not respo=
+nsible for the content of third party websites.</span></span></p><p style=
+=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least;text-=
+align:center"><br></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-l=
+ine-height-rule:at-least;text-align:center"><span style=3D"color:#373a36"><=
+span style=3D"font-size:12px">Imperial is a world-leading university for sc=
+ience, technology, engineering, medicine and business (STEMB). Find out how=
+ we=E2=80=99re <u><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%=
+3a%2f%2fpublic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-=
+b8d8e57cc426%2fr%2f9y7sBug8u0a4HTH7KFtyIhUAAAA%3ftarget%3d%257B%2522TargetU=
+rl%2522%253A%2522https%25253A%25252F%25252Fwww.youtube.com%25252Fwatch%2525=
+3Fv%25253DecnBGHIcrDY%2522%252C%2522RedirectOptions%2522%253A%257B%25225%25=
+22%253Anull%252C%25221%2522%253Anull%252C%25222%2522%253A%257B%2522utm_sour=
+ce%2522%253A%2522Dynamics%2520365%2520Customer%2520Insights%2520-%2520Journ=
+eys%2522%252C%2522utm_medium%2522%253A%2522email%2522%252C%2522utm_term%252=
+2%253A%2522N%252FA%2522%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520N=
+urture%2520-%2520Applicants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2=
+522utm_content%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2=
+520-%2520UG%2520-%2520Applicants%2522%257D%257D%257D%26digest%3dqW9H%252BaQ=
+X3iLJGhrKcy9yDGkYt84TcQ4JGBa7AetFFtY%253D%26secretVersion%3da6751a3a8347442=
+98598bfc7d73b336f&c=3DE,1,d7iYsBaHf4beLy_5TyuWJFgef5HVZmLGCeUQNlubww0ethNcq=
+S6A8ezrCdo1Tvnt0RSZteM9trlYWh_fG5hfjZHRcIcOMKmG4ZlrKrSm&typo=3D1" style=3D"=
+text-decoration:underline"><span style=3D"text-decoration:underline;color:#=
+373a36"><span style=3D"text-decoration:underline;font-size:12px"><u>shaping=
+ the future</u></span></span></a></u>.</span></span></p><p style=3D"margin:=
+0;padding:0;line-height:1.25;mso-line-height-rule:at-least;text-align:cente=
+r"><br></p><p style=3D"margin:0;padding:0;line-height:1.25;mso-line-height-=
+rule:at-least;text-align:center"><span style=3D"color:#373a36"><span style=
+=3D"font-size:12px">=C2=A9 Imperial College London </span></span></p><p sty=
+le=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least;tex=
+t-align:center"><br></p><p style=3D"margin:0;padding:0;line-height:1.25;mso=
+-line-height-rule:at-least;text-align:center"><span style=3D"color:#373a36"=
+><span style=3D"font-size:12px"><span tabindex=3D"0" aria-label=3D"widgetLa=
+bel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" a=
+ria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><=
+span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-la=
+bel=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span t=
+abindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D=
+"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabinde=
+x=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widge=
+tLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0=
+" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel=
+"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria=
+-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><spa=
+n tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=
+=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabi=
+ndex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"wi=
+dgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=
+=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widget=
+Label"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0"=
+ aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"=
+><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-=
+label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span=
+ tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=
+=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabi=
+ndex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"wi=
+dgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=
+=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widget=
+Label"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0"=
+ aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"=
+><span tabindex=3D"0" aria-label=3D"widgetLabel"><span tabindex=3D"0" aria-=
+label=3D"widgetLabel"><span tabindex=3D"0" aria-label=3D"widgetLabel"><span=
+ tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span tabindex=
+=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span tabindex=3D"0" role=
+=3D"region" aria-label=3D"widgetLabel"><span tabindex=3D"0" role=3D"region"=
+ aria-label=3D"widgetLabel"><span tabindex=3D"0" role=3D"region" aria-label=
+=3D"widgetLabel"><span tabindex=3D"0" role=3D"region" aria-label=3D"widgetL=
+abel"><span tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span=
+ tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span tabindex=
+=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span tabindex=3D"0" role=
+=3D"region" aria-label=3D"widgetLabel"><span aria-label=3D"widgetLabel" rol=
+e=3D"region" tabindex=3D"0"><span tabindex=3D"0" role=3D"region" aria-label=
+=3D"widgetLabel"><span tabindex=3D"0" role=3D"region" aria-label=3D"widgetL=
+abel"><span tabindex=3D"0" role=3D"region" aria-label=3D"widgetLabel"><span=
+ class=3D"msdynmkt_personalization" data-widget=3D"personalization">Exhibit=
+ion Road, South Kensington, London SW7 2AZ</span></span></span></span></spa=
+n></span></span></span></span></span></span></span></span></span></span></s=
+pan></span></span></span></span></span></span></span></span></span></span><=
+/span></span></span></span></span></span></span></span></span></span></span=
+></span></span></span></span></span></span></span></span></span></span></sp=
+an></span></span></span></span></span></span></span></span></span></span></=
+span></span></span> </span></span></p><p style=3D"margin:0;padding:0;line-h=
+eight:1.25;mso-line-height-rule:at-least;text-align:center"><br></p><p styl=
+e=3D"margin:0;padding:0;line-height:1.25;mso-line-height-rule:at-least;text=
+-align:center"><span style=3D"color:#373a36"><span style=3D"font-size:12px"=
+>You can <u><span style=3D"text-decoration:underline"><span style=3D"text-d=
+ecoration:underline"><span style=3D"text-decoration:underline"><a href=3D"h=
+ttps://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynamic=
+s.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fr%2f9y7sBug8u0a=
+4HTH7KFtyIhYAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A%2522https%25253A%=
+25252F%25252Fwww.imperial.ac.uk%25252Fcampaigns%25252Fconsent%25252Fapplica=
+nts%25252F%25253Fmsdynunsubscribeid%25253DxXxrrJTTXKooRnnYWbTdoAH8u8TGzxnio=
+TBUvKbVfqcx%2522%252C%2522RedirectOptions%2522%253A%257B%25226%2522%253A%25=
+22mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221%2522%253Anull=
+%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynamics%2520365%25=
+20Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_medium%2522%25=
+3A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%2522%252C%2522utm=
+_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Applicants%2520-%25=
+20UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%253A%2522MRA%252=
+0-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520Applicants%252=
+2%257D%257D%257D%26digest%3dWy3QQecY7tJk7okAyDthijbiGu80dQjKHa8nGrkk2qA%253=
+D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,lu8eDS4IdJk9fF=
+-mYskQ6z9Rf2AofBD0Euhl1kTS81WTZjn21YagVVAWi39VXuUPYDKzZ_VFjHvYtwx0vXzss3uhB=
+O3csRN354cCvx2PjmlEFf_S_HC3&typo=3D1" style=3D"text-decoration:underline"><=
+span style=3D"text-decoration:underline;color:#373a36"><span style=3D"text-=
+decoration:underline;font-size:12px">unsubscribe here</span></span></a></sp=
+an></span></span></u> &nbsp;| &nbsp;<u><span style=3D"text-decoration:under=
+line"><a href=3D"https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpubl=
+ic-gbr.mkt.dynamics.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426=
+%2fr%2f9y7sBug8u0a4HTH7KFtyIhcAAAA%3ftarget%3d%257B%2522TargetUrl%2522%253A=
+%2522https%25253A%25252F%25252Fwww.imperial.ac.uk%25252Fstudy%25252Fhelp-ce=
+ntre%25252Fcontact%25252F%2522%252C%2522RedirectOptions%2522%253A%257B%2522=
+6%2522%253A%2522mktprf07700ad2a80f4d1d9948e9a497f500dbeoprf%2522%252C%25221=
+%2522%253Anull%252C%25222%2522%253A%257B%2522utm_source%2522%253A%2522Dynam=
+ics%2520365%2520Customer%2520Insights%2520-%2520Journeys%2522%252C%2522utm_=
+medium%2522%253A%2522email%2522%252C%2522utm_term%2522%253A%2522N%252FA%252=
+2%252C%2522utm_campaign%2522%253A%2522MRA%2520-%2520Nurture%2520-%2520Appli=
+cants%2520-%2520UG%2520-%2520Dec%25202024%2522%252C%2522utm_content%2522%25=
+3A%2522MRA%2520-%2520Nurture%2520-%2520Dec%25202024%2520-%2520UG%2520-%2520=
+Applicants%2522%257D%257D%257D%26digest%3dXw0y5zXds7iDYBVUASO77g6K68vpP0Yvk=
+H3869KY2lQ%253D%26secretVersion%3da6751a3a834744298598bfc7d73b336f&c=3DE,1,=
+6t2_APAxPSRNy3gndP3ZoHkNCCicAPxG64RLzzspmbB0rAZjiUt72aeVU3E1L07gkoOmctmIcvg=
+AwUHXcrKHR-bfcVuzyLHITyumsXs9zspFYb2r_g,,&typo=3D1" style=3D"text-decoratio=
+n:underline"><span style=3D"text-decoration:underline;color:#373a36"><span =
+style=3D"text-decoration:underline;font-size:12px">Contact us</span></span>=
+</a></span></u></span></span></p></div>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+<!--[if gte mso 9]> <tr><td  style=3D"font-size: 0px; line-height:0px;mso-l=
+ine-height-rule: exactly; display: none !important; mso-hide:all;background=
+-color: rgb(230, 230, 230);"><p style=3D"font-size: 0px;height:0px; margin:=
+ 0px; padding:0;line-height: 0px; mso-line-height-rule: exactly; background=
+-color: transparent;"><br/></p></td></tr> <![endif]--></tbody>
+</table>
+</div></div><!--[if gte mso 9]> </th></tr></table><p style=3D"height:0px; m=
+argin-bottom:0; margin-top:0; padding:0;line-height: 0px; mso-line-height-r=
+ule: exactly; background-color: transparent;"></p> <![endif]--><img src=3D"=
+https://linkprotect.cudasvc.com/url?a=3Dhttps%3a%2f%2fpublic-gbr.mkt.dynami=
+cs.com%2fapi%2forgs%2ff152573f-fb95-49d8-a928-b8d8e57cc426%2fi%2f9y7sBug8u0=
+a4HTH7KFtyIhgAAAA&c=3DE,1,vNjbEzr9yAoFr1U90q7cKUi6rWGmMbHpkeq17-kiBiYcmm9wO=
+-fm6HClQYnvx3Y6GQG_CqvHIS7E68-Jrb1dNrw4axkf_OZNrNNJZSdBRUvGhu-JLA,,&typo=3D=
+1" width=3D"0" height=3D"0" data-tracking /></body></html>
+--=-gK8vdxbM4x9Bod/aaJhyPg==--

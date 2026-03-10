@@ -1,0 +1,7 @@
+pytest
+allure-pytest
+playwright
+urllib3<2.0
+requests
+jsonschema
+pydantic>=2.0

@@ -1,0 +1,3 @@
+ip,expected_return_code,expected_message,url,x_api_key,accept
+0.0.0.0,0,"The IP address 0.0.0.0 is not currently listed as poor on the Barracuda Reputation System.",https://barracudacentral.barracudabrts.com/api/v1/lookup/ip,barracuda_4f8e2c7a-9b1e-4e2a-8c3d-7f6a2b1c9e5d,application/json
+72.211.30.216,1,"The IP address 72.211.30.216 is listed as poor on the Barracuda Reputation System.",https://barracudacentral.barracudabrts.com/api/v1/lookup/ip,barracuda_4f8e2c7a-9b1e-4e2a-8c3d-7f6a2b1c9e5d,application/json
