@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Playwright/Test Artifacts
+screenshots/
+reports/
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+
+# Generated Reports
+*.xml
+*.html
+!testdata/*.html
+!docs/*.html
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+resources/env/*.env
+
+# Keep only template env files (rename .env to .env.example)
+!resources/env/*.env.example
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribution
+*.tar.gz
+*.zip
+
+# Secrets (never commit these)
+**/secrets/
+**/credentials/
+*.pem
+*.key
+
+# Test data with sensitive info
+testdata/user_data.csv
+

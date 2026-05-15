@@ -1,0 +1,163 @@
+# Scheduled CI/CD Pipeline - Runs tests on a schedule
+# Nightly regression tests and smoke tests
+
+name: Scheduled Test Runs
+
+on:
+  schedule:
+    # Run nightly at 2:00 AM UTC (adjust for your timezone)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      test_type:
+        description: 'Type of test run'
+        required: true
+        default: 'smoke'
+        type: choice
+        options:
+          - smoke
+          - regression
+          - full
+
+env:
+  PYTHON_VERSION: '3.9'
+  HEADLESS: 'true'
+  USE_MCP: 'true'
+
+jobs:
+  # ============================================
+  # Smoke Tests - Quick validation
+  # ============================================
+  smoke-tests:
+    name: Smoke Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Create directories
+        run: |
+          mkdir -p screenshots/smoke
+          mkdir -p reports/smoke
+
+      - name: Run Smoke Tests
+        env:
+          MCP_PROJECT: rulegenai
+          RULEGENAI_USERNAME: ${{ secrets.RULEGENAI_USERNAME }}
+          RULEGENAI_PASSWORD: ${{ secrets.RULEGENAI_PASSWORD }}
+        run: |
+          pytest tests/ui/rulegenai/test_login.py \
+            -v \
+            --tb=short \
+            --html=reports/smoke/report.html \
+            --self-contained-html \
+            -m "not slow"
+
+      - name: Upload Smoke Test Results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: smoke-test-results
+          path: |
+            reports/smoke/
+            screenshots/smoke/
+          retention-days: 7
+
+  # ============================================
+  # Full Regression Tests
+  # ============================================
+  regression-tests:
+    name: Full Regression
+    runs-on: ubuntu-latest
+    needs: smoke-tests
+    if: success()
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest-html pytest-xdist allure-pytest
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Create directories
+        run: |
+          mkdir -p screenshots/regression
+          mkdir -p reports/regression
+          mkdir -p allure-results
+
+      - name: Run Full Regression Tests
+        env:
+          MCP_PROJECT: rulegenai
+          RULEGENAI_USERNAME: ${{ secrets.RULEGENAI_USERNAME }}
+          RULEGENAI_PASSWORD: ${{ secrets.RULEGENAI_PASSWORD }}
+        run: |
+          pytest tests/ui/rulegenai/ \
+            -v \
+            --tb=short \
+            --html=reports/regression/report.html \
+            --self-contained-html \
+            --junitxml=reports/regression/junit.xml \
+            --alluredir=allure-results \
+            -n 2
+
+      - name: Upload Regression Results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: regression-test-results
+          path: |
+            reports/regression/
+            screenshots/
+            allure-results/
+          retention-days: 30
+
+  # ============================================
+  # Send Notification
+  # ============================================
+  notify:
+    name: Send Notification
+    runs-on: ubuntu-latest
+    needs: [smoke-tests, regression-tests]
+    if: always()
+    steps:
+      - name: Send Email Notification
+        uses: dawidd6/action-send-mail@v3
+        if: ${{ secrets.MAIL_USERNAME != '' }}
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "BCI Playwright MCP Tests - ${{ needs.regression-tests.result }}"
+          to: qa-team@example.com
+          from: CI/CD Pipeline
+          body: |
+            Nightly Test Run Results:
+
+            Smoke Tests: ${{ needs.smoke-tests.result }}
+            Regression Tests: ${{ needs.regression-tests.result }}
+
+            View details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

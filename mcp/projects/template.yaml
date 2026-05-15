@@ -1,0 +1,107 @@
+# Project Configuration Template
+# Copy this file and rename to your_project.yaml
+# Customize the values for your specific project
+
+project_name: your_project_name
+description: "Your project description"
+
+# Application URLs
+base_url: ${BASE_URL:-https://your-app.example.com}
+login_url: /login
+dashboard_url: /dashboard
+
+# API Configuration
+api:
+  base_url: ${API_BASE_URL:-https://api.your-app.example.com}
+  version: v1
+  endpoints:
+    login: /api/auth/login
+    # Add your API endpoints here
+
+# Credentials - Environment variable names to read
+credentials:
+  username_env: YOUR_PROJECT_USERNAME  # Environment variable name
+  password_env: YOUR_PROJECT_PASSWORD  # Environment variable name
+  username: ""  # Fallback (not recommended for production)
+  password: ""  # Fallback (not recommended for production)
+
+# Locator Mappings - Maps logical names to CSS/XPath selectors
+# Update these to match your application's DOM structure
+locator_mappings:
+  # Login Page
+  login_username: "input[name='username'], input[name='email'], #username"
+  login_password: "input[type='password'], #password"
+  login_button: "button[type='submit'], #login-btn"
+  login_error: ".error, .alert-error, .login-error"
+  logout_button: "#logout, a[href*='logout']"
+  user_menu: ".user-menu, .profile-dropdown"
+
+  # Navigation - Update based on your app's navigation structure
+  nav_bar: "nav, .navbar, header"
+  nav_menu: ".nav-menu, .main-nav"
+
+  # Common Elements
+  submit_button: "button[type='submit']"
+  cancel_button: "button[type='button']:has-text('Cancel')"
+  search_input: "input[type='search'], .search-input"
+  loading_spinner: ".loading, .spinner, [data-loading]"
+  alert_message: ".alert, .notification, [role='alert']"
+
+# Login Success Verification
+# How to verify that login was successful
+login_success_indicator:
+  url_contains: "/dashboard"  # URL should contain this after login
+  element_visible: null  # Optional: selector that should be visible after login
+
+# Browser Configuration
+browser:
+  type: chromium  # Options: chromium, firefox, webkit
+  headless: ${HEADLESS:-true}
+  slow_mo: ${SLOW_MO:-0}  # Milliseconds to slow down actions (useful for debugging)
+  timeout: ${TIMEOUT:-30000}  # Default timeout in milliseconds
+
+  viewport:
+    width: ${VIEWPORT_WIDTH:-1920}
+    height: ${VIEWPORT_HEIGHT:-1080}
+
+  ignore_https_errors: true
+  screenshot_on_failure: true
+  screenshots_dir: screenshots
+  record_video: false
+  video_dir: videos
+
+  args:
+    - "--disable-blink-features=AutomationControlled"
+    - "--disable-dev-shm-usage"
+    - "--no-sandbox"
+
+# MCP Configuration
+mcp:
+  enabled: ${USE_MCP:-false}
+  server_url: ${MCP_SERVER_URL:-}
+  cdp_endpoint: ${CDP_ENDPOINT:-}
+  connection_timeout: 30000
+
+# Test Data - Project-specific test data
+test_data:
+  default_user:
+    username: ${TEST_USERNAME:-testuser}
+    password: ${TEST_PASSWORD:-testpass}
+
+  # Add your test data here
+  sample_data:
+    - item1
+    - item2
+
+# Retry Configuration
+retry:
+  max_attempts: 3
+  delay_seconds: 2
+  backoff_multiplier: 1.5
+
+# Reporting
+reporting:
+  html_report: true
+  junit_xml: true
+  allure: false
+  output_dir: reports

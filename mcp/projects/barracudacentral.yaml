@@ -1,0 +1,79 @@
+# Barracuda Central Project Configuration
+# Example of a second project using the same framework
+
+project_name: barracudacentral
+description: "Barracuda Central Lookup API Testing"
+
+# Application URLs
+base_url: ${BARRACUDA_BASE_URL:-https://barracudacentral.org}
+login_url: /login
+dashboard_url: /
+
+# API Configuration
+api:
+  base_url: ${BARRACUDA_API_URL:-https://barracudacentral.org}
+  version: v1
+  endpoints:
+    lookup: /lookups
+    ip_lookup: /lookups/ip
+    domain_lookup: /lookups/domain
+
+# Credentials
+credentials:
+  username_env: BARRACUDA_USERNAME
+  password_env: BARRACUDA_PASSWORD
+  username: ""
+  password: ""
+
+# Locator Mappings - Specific to Barracuda Central UI
+locator_mappings:
+  # Login Page
+  login_username: "input[name='email'], input[name='username']"
+  login_password: "input[type='password']"
+  login_button: "button[type='submit'], input[type='submit']"
+  login_error: ".error, .alert-error"
+
+  # Lookup Page
+  lookup_input: "input#lookup, input[name='lookup']"
+  lookup_button: "button#submit, button[type='submit']"
+  lookup_results: ".results, #results"
+
+  # Navigation
+  nav_bar: "nav, .navbar"
+  nav_menu: ".nav-menu"
+
+# Browser Configuration
+browser:
+  type: chromium
+  headless: ${HEADLESS:-true}
+  slow_mo: 0
+  timeout: 30000
+  viewport:
+    width: 1920
+    height: 1080
+  ignore_https_errors: true
+  screenshot_on_failure: true
+  screenshots_dir: screenshots
+
+# MCP Configuration
+mcp:
+  enabled: ${USE_MCP:-false}
+  server_url: ${MCP_SERVER_URL:-}
+
+# Test Data
+test_data:
+  test_ips:
+    - "8.8.8.8"
+    - "1.1.1.1"
+    - "208.67.222.222"
+
+  test_domains:
+    - "google.com"
+    - "microsoft.com"
+    - "barracuda.com"
+
+# Retry Configuration
+retry:
+  max_attempts: 3
+  delay_seconds: 2
+  backoff_multiplier: 1.5

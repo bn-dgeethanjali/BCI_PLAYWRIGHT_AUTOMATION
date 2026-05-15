@@ -1,0 +1,139 @@
+# Docker Compose for BCI Playwright MCP Automation
+# Run tests in isolated container environment
+
+version: '3.8'
+
+services:
+  # ============================================
+  # Main Test Runner Service
+  # ============================================
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bci-playwright-mcp
+    environment:
+      - USE_MCP=true
+      - HEADLESS=true
+      - MCP_PROJECT=${MCP_PROJECT:-rulegenai}
+      - RULEGENAI_USERNAME=${RULEGENAI_USERNAME}
+      - RULEGENAI_PASSWORD=${RULEGENAI_PASSWORD}
+      - RULEGENAI_BASE_URL=${RULEGENAI_BASE_URL:-http://rule-gen-ai.dev.bci.aws.cudaops.com}
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./allure-results:/app/allure-results
+    command: >
+      pytest tests/ui/rulegenai/
+      -v
+      --tb=short
+      --html=reports/rulegenai/report.html
+      --self-contained-html
+      --junitxml=reports/rulegenai/junit.xml
+      --alluredir=allure-results
+    networks:
+      - test-network
+
+  # ============================================
+  # Login Tests Only
+  # ============================================
+  test-login:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bci-test-login
+    environment:
+      - USE_MCP=true
+      - HEADLESS=true
+      - MCP_PROJECT=rulegenai
+      - RULEGENAI_USERNAME=${RULEGENAI_USERNAME}
+      - RULEGENAI_PASSWORD=${RULEGENAI_PASSWORD}
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+    command: >
+      pytest tests/ui/rulegenai/test_login.py
+      -v
+      --html=reports/login/report.html
+      --self-contained-html
+    networks:
+      - test-network
+    profiles:
+      - login
+
+  # ============================================
+  # Workspace Tests Only
+  # ============================================
+  test-workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bci-test-workspace
+    environment:
+      - USE_MCP=true
+      - HEADLESS=true
+      - MCP_PROJECT=rulegenai
+      - RULEGENAI_USERNAME=${RULEGENAI_USERNAME}
+      - RULEGENAI_PASSWORD=${RULEGENAI_PASSWORD}
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+    command: >
+      pytest tests/ui/rulegenai/test_workspace.py
+      -v
+      --html=reports/workspace/report.html
+      --self-contained-html
+    networks:
+      - test-network
+    profiles:
+      - workspace
+
+  # ============================================
+  # Rule Generation Tests Only
+  # ============================================
+  test-rule-generation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bci-test-rule-generation
+    environment:
+      - USE_MCP=true
+      - HEADLESS=true
+      - MCP_PROJECT=rulegenai
+      - RULEGENAI_USERNAME=${RULEGENAI_USERNAME}
+      - RULEGENAI_PASSWORD=${RULEGENAI_PASSWORD}
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+    command: >
+      pytest tests/ui/rulegenai/test_rule_generation.py
+      -v
+      --html=reports/rule_generation/report.html
+      --self-contained-html
+    networks:
+      - test-network
+    profiles:
+      - rule-generation
+
+  # ============================================
+  # Allure Report Server
+  # ============================================
+  allure:
+    image: frankescobar/allure-docker-service
+    container_name: bci-allure
+    ports:
+      - "5050:5050"
+    environment:
+      - CHECK_RESULTS_EVERY_SECONDS=3
+      - KEEP_HISTORY=1
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./allure-reports:/app/default-reports
+    networks:
+      - test-network
+    profiles:
+      - report
+
+networks:
+  test-network:
+    driver: bridge

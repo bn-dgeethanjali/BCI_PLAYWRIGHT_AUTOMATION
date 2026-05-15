@@ -1,0 +1,147 @@
+# RuleGen AI Project Configuration
+# Dashboard for AI-powered rule generation
+
+project_name: rulegenai
+description: "RuleGen AI Dashboard - AI-powered security rule generation testing"
+
+# Application URLs
+base_url: ${RULEGENAI_BASE_URL:-http://rule-gen-ai.dev.bci.aws.cudaops.com}
+login_url: /login
+dashboard_url: /workspaces/12
+workspaces_url: /workspaces
+
+# API Configuration
+api:
+  base_url: ${RULEGENAI_API_URL:-http://rule-gen-ai.dev.bci.aws.cudaops.com}
+  version: v1
+  endpoints:
+    login: /api/auth/login
+    workspaces: /api/workspaces
+    rules: /api/rules
+    generate: /api/generate
+    models: /api/models
+
+# Credentials (reads from env var, falls back to default values)
+credentials:
+  username_env: RULEGENAI_USERNAME
+  password_env: RULEGENAI_PASSWORD
+  username: ${RULEGENAI_USERNAME:-dgeethanjali}
+  password: ${RULEGENAI_PASSWORD:-Himajabellamkonda@123}
+
+# Locator Mappings
+locator_mappings:
+  # Login Page
+  login_username: "input[name='username'], input[name='email'], input[type='email'], #username, #email"
+  login_password: "input[type='password'], input[name='password'], #password"
+  login_button: "button[type='submit'], button:has-text('Login'), button:has-text('Sign in'), #login-btn"
+  login_error: ".error, .alert-error, .login-error, [role='alert']"
+  logout_button: "button:has-text('Logout'), a:has-text('Logout'), #logout"
+
+  # Navigation
+  nav_bar: "nav, .navbar, .navigation, header"
+  nav_menu: ".nav-menu, .sidebar, .side-nav"
+  nav_workspaces: "a[href*='workspaces'], button:has-text('Workspaces')"
+  nav_rules: "a[href*='rules'], button:has-text('Rules')"
+  nav_settings: "a[href*='settings'], button:has-text('Settings')"
+
+  # Dashboard Elements
+  dashboard_header: ".dashboard-header, h1, .page-title"
+  dashboard_stats: ".stats, .statistics, .metrics"
+  workspace_title: ".workspace-title, .workspace-name, h1"
+  workspace_id: ".workspace-id, [data-workspace-id]"
+
+  # Rule Generation
+  rule_input: "textarea#rule-input, textarea[name='rule'], .rule-input, #prompt-input"
+  generate_button: "button:has-text('Generate'), button#generate, .generate-btn"
+  rule_output: ".rule-output, #output, .generated-rule, pre.output"
+  rule_list: ".rule-list, .rules-table, table.rules"
+  rule_item: ".rule-item, tr.rule-row, .rule-card"
+
+  # AI Model Selection
+  model_selector: "select#model, .model-select, [data-testid='model-selector']"
+  model_options: ".model-option, option"
+
+  # Workspace Elements
+  workspace_list: ".workspace-list, .workspaces-grid, table.workspaces"
+  workspace_card: ".workspace-card, .workspace-item"
+  create_workspace_btn: "button:has-text('Create'), button:has-text('New Workspace'), #create-workspace"
+  delete_workspace_btn: "button:has-text('Delete'), .delete-btn, [data-action='delete']"
+
+  # Common Elements
+  search_input: "input[type='search'], input[placeholder*='Search'], .search-input"
+  filter_dropdown: ".filter, select.filter, .dropdown-filter"
+  loading_spinner: ".loading, .spinner, [data-loading], .loader"
+  success_message: ".success, .alert-success, .toast-success"
+  error_message: ".error, .alert-danger, .toast-error"
+  modal: ".modal, [role='dialog'], .dialog"
+  modal_close: ".modal-close, button.close, [aria-label='Close']"
+  confirm_button: "button:has-text('Confirm'), button:has-text('Yes'), .confirm-btn"
+  cancel_button: "button:has-text('Cancel'), button:has-text('No'), .cancel-btn"
+
+  # Table Elements
+  table: "table, .data-table"
+  table_header: "thead, .table-header"
+  table_body: "tbody, .table-body"
+  table_row: "tr, .table-row"
+  pagination: ".pagination, nav[aria-label='pagination']"
+  next_page: ".next, button:has-text('Next')"
+  prev_page: ".previous, button:has-text('Previous')"
+
+# Login Success Verification
+login_success_indicator:
+  url_contains: "/workspaces"
+  element_visible: null
+
+# Browser Configuration
+browser:
+  type: chromium
+  headless: ${HEADLESS:-true}
+  slow_mo: ${SLOW_MO:-0}
+  timeout: ${TIMEOUT:-30000}
+  viewport:
+    width: 1920
+    height: 1080
+  ignore_https_errors: true
+  screenshot_on_failure: true
+  screenshots_dir: screenshots/rulegenai
+  record_video: false
+
+# MCP Configuration
+mcp:
+  enabled: ${USE_MCP:-false}
+  server_url: ${MCP_SERVER_URL:-}
+
+# Test Data
+test_data:
+  workspace_id: "12"
+
+  sample_prompts:
+    - "Generate a rule to block phishing emails"
+    - "Create a detection rule for ransomware"
+    - "Write a YARA rule for malware detection"
+
+  test_rules:
+    - name: "Block Suspicious Attachments"
+      type: "email"
+      severity: "high"
+    - name: "Detect Credential Harvesting"
+      type: "web"
+      severity: "critical"
+
+  invalid_inputs:
+    - ""
+    - "   "
+    - "<script>alert('xss')</script>"
+
+# Retry Configuration
+retry:
+  max_attempts: 3
+  delay_seconds: 2
+  backoff_multiplier: 1.5
+
+# Reporting
+reporting:
+  html_report: true
+  junit_xml: true
+  allure: true
+  output_dir: reports/rulegenai

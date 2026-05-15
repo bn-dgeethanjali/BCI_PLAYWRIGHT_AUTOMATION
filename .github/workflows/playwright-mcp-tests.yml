@@ -1,0 +1,219 @@
+# GitHub Actions CI/CD Pipeline for BCI Playwright MCP Automation
+# Runs UI tests using Playwright MCP Server
+
+name: Playwright MCP Tests
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Project to test'
+        required: true
+        default: 'rulegenai'
+        type: choice
+        options:
+          - rulegenai
+          - mailxray
+          - all
+      environment:
+        description: 'Environment'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - dev
+          - staging
+      test_suite:
+        description: 'Test suite to run'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - login
+          - workspace
+          - rule_generation
+          - rules_management
+
+env:
+  PYTHON_VERSION: '3.9'
+  HEADLESS: 'true'
+  USE_MCP: 'true'
+
+jobs:
+  # ============================================
+  # Job 1: Lint and Static Analysis
+  # ============================================
+  lint:
+    name: Lint & Static Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install linting tools
+        run: |
+          pip install flake8 black isort
+
+      - name: Run flake8
+        run: flake8 tests/ pages/ mcp/ --max-line-length=120 --ignore=E501,W503
+        continue-on-error: true
+
+      - name: Check code formatting with black
+        run: black --check tests/ pages/ mcp/ --line-length=120
+        continue-on-error: true
+
+  # ============================================
+  # Job 2: Run Tests
+  # ============================================
+  test:
+    name: Run Tests - ${{ matrix.project }}
+    runs-on: ubuntu-latest
+    needs: lint
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [rulegenai]
+        # Add more projects as needed:
+        # project: [rulegenai, mailxray, threatintel]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest-html pytest-xdist allure-pytest
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Create directories
+        run: |
+          mkdir -p screenshots/${{ matrix.project }}
+          mkdir -p reports/${{ matrix.project }}
+          mkdir -p allure-results
+
+      - name: Run Playwright MCP Tests
+        env:
+          MCP_PROJECT: ${{ matrix.project }}
+          HEADLESS: 'true'
+          USE_MCP: 'true'
+          # Credentials from GitHub Secrets
+          RULEGENAI_USERNAME: ${{ secrets.RULEGENAI_USERNAME }}
+          RULEGENAI_PASSWORD: ${{ secrets.RULEGENAI_PASSWORD }}
+          RULEGENAI_BASE_URL: ${{ secrets.RULEGENAI_BASE_URL }}
+        run: |
+          pytest tests/ui/${{ matrix.project }}/ \
+            -v \
+            --tb=short \
+            --html=reports/${{ matrix.project }}/report.html \
+            --self-contained-html \
+            --junitxml=reports/${{ matrix.project }}/junit.xml \
+            --alluredir=allure-results \
+            -n auto \
+            --dist=loadfile \
+            || true
+
+      - name: Upload Test Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-report-${{ matrix.project }}
+          path: reports/${{ matrix.project }}/
+          retention-days: 30
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-${{ matrix.project }}
+          path: screenshots/${{ matrix.project }}/
+          retention-days: 30
+
+      - name: Upload Allure Results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-results-${{ matrix.project }}
+          path: allure-results/
+          retention-days: 30
+
+  # ============================================
+  # Job 3: Generate Allure Report
+  # ============================================
+  allure-report:
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+    needs: test
+    if: always()
+    steps:
+      - name: Download Allure Results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: allure-results-*
+          path: allure-results
+          merge-multiple: true
+
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@v1.7
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
+
+  # ============================================
+  # Job 4: Notify Results
+  # ============================================
+  notify:
+    name: Notify Results
+    runs-on: ubuntu-latest
+    needs: [test, allure-report]
+    if: always()
+    steps:
+      - name: Slack Notification
+        uses: 8398a7/action-slack@v3
+        if: ${{ secrets.SLACK_WEBHOOK_URL != '' }}
+        with:
+          status: ${{ job.status }}
+          channel: '#test-automation'
+          fields: repo,message,commit,author,action,eventName,workflow
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+      - name: Summary
+        run: |
+          echo "## Test Results Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Project | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|---------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| RuleGen AI | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 [View Allure Report](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)" >> $GITHUB_STEP_SUMMARY

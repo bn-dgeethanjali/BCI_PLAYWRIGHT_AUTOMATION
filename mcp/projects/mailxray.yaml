@@ -1,0 +1,136 @@
+# MailXray Project Configuration
+# This file contains all project-specific settings for the MailXray application
+# Environment variables are resolved using ${VAR_NAME:-default} syntax
+
+project_name: mailxray
+description: "MailXray Security Analysis Tool - UI and API Testing"
+
+# Application URLs
+base_url: ${BASE_URL:-https://mailxray.barracudabrts.com}
+login_url: /accounts/login/
+dashboard_url: /dashboard/
+
+# API Configuration
+api:
+  base_url: ${API_BASE_URL:-https://mailxray.barracudabrts.com}
+  version: v1
+  endpoints:
+    login: /tools/api/login/
+    whois: /tools/api/whois/
+    mxlookup: /tools/api/mxlookup/
+    virustotal_ip: /tools/api/virustotal/ip/
+    virustotal_url: /tools/api/virustotal/url/
+    emldata: /tools/api/emldata/
+    phaas: /tools/api/phaas/
+    mxblocklist: /tools/api/mxblocklist/ip/
+
+# Credentials - reads from environment variables
+credentials:
+  username_env: USERNAME
+  password_env: PASSWORD
+  # Fallback values (only used if env vars not set)
+  username: ""
+  password: ""
+
+# Locator Mappings - Maps logical names to actual selectors
+# These can override default locators without changing page objects
+locator_mappings:
+  # Login Page
+  login_username: "input[name='username']"
+  login_password: "input[type='password']"
+  login_button: "//button[text()='Login']"
+  login_error: ".error-message, .alert-danger"
+  logout_button: "button.logout, a[href*='logout']"
+  user_menu: "div.user-menu, .user-dropdown"
+
+  # Navigation
+  nav_bar: "nav, .navbar"
+  nav_menu: ".nav-menu, ul.navbar-nav"
+
+  # Dashboard
+  dashboard_header: ".dashboard-header, h1"
+  tools_menu: ".tools-menu, #tools-dropdown"
+
+  # Common Elements
+  submit_button: "button[type='submit']"
+  search_input: "input[type='search'], input[name='search']"
+  loading_spinner: ".spinner, .loading"
+  alert_message: ".alert, [role='alert']"
+
+# Login Success Verification
+login_success_indicator:
+  url_contains: "/dashboard"
+  element_visible: null  # Set to selector if needed
+
+# Browser Configuration
+browser:
+  type: chromium  # chromium, firefox, webkit
+  headless: ${HEADLESS:-true}
+  slow_mo: ${SLOW_MO:-0}
+  timeout: ${TIMEOUT:-30000}
+
+  viewport:
+    width: ${VIEWPORT_WIDTH:-1920}
+    height: ${VIEWPORT_HEIGHT:-1080}
+
+  # Additional options
+  ignore_https_errors: true
+  screenshot_on_failure: true
+  screenshots_dir: screenshots
+  record_video: false
+  video_dir: videos
+
+  # Chrome/Chromium specific args
+  args:
+    - "--disable-blink-features=AutomationControlled"
+    - "--disable-dev-shm-usage"
+    - "--no-sandbox"
+
+# MCP Configuration (when using Playwright MCP)
+mcp:
+  enabled: ${USE_MCP:-false}
+  server_url: ${MCP_SERVER_URL:-}
+  cdp_endpoint: ${CDP_ENDPOINT:-}  # Chrome DevTools Protocol endpoint
+  connection_timeout: 30000
+
+# Test Data
+test_data:
+  default_user:
+    username: ${TEST_USERNAME:-testuser}
+    password: ${TEST_PASSWORD:-testpassword}
+
+  # Sample test inputs
+  test_domains:
+    - example.com
+    - google.com
+    - github.com
+
+  test_ips:
+    - "8.8.8.8"
+    - "1.1.1.1"
+
+  test_urls:
+    - "https://example.com"
+    - "https://httpbin.org"
+
+# Tool-specific URLs
+tools:
+  whois: /tools/whois/
+  mxlookup: /tools/mxlookup/
+  virustotal: /tools/virustotal/
+  emldata: /tools/emldata/
+  phaas: /tools/phaas/
+  blocklist: /tools/blocklist/
+
+# Retry Configuration
+retry:
+  max_attempts: 3
+  delay_seconds: 2
+  backoff_multiplier: 1.5
+
+# Reporting
+reporting:
+  html_report: true
+  junit_xml: true
+  allure: true
+  output_dir: reports
